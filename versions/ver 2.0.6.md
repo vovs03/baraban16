@@ -1,5 +1,5 @@
 # ver. 2.0.6  
-## &#169 Дизайн и поддержка сайта. [OsArts.ru](https://OsArts.ru), 2016-2017
+## (c) Дизайн и поддержка сайта. [OsArts.ru](https://OsArts.ru), 2016-2017
 ## Date create: 2017-02-21
 Time 18:15
 
