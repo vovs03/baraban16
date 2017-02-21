@@ -1,0 +1,28 @@
+/*
+../blocks/b-varianty-oplaty/b-varianty-oplaty.css
+
+2016.12.16
+
+16:23
+
+*/
+
+#varianty-oplaty {
+    background-image: url(../img/parallax/varianty-oplaty.jpg);
+    padding: 0;
+    color: #fff;
+}
+
+#varianty-oplaty .overlay {
+    background-color: rgba(15,155,224, 0.78);
+    padding: 70px 0 40px;
+}
+
+#varianty-oplaty1 {
+	margin-top: 0px;
+	
+}
+
+.b-varianty-oplaty_position {
+	margin-bottom: 15px;
+}
