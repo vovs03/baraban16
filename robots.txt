@@ -46,5 +46,5 @@ Disallow: /test
 Disallow: /versions
 Disallow: /zip
 
-Host: baraban16.ru
+Host: www.baraban16.ru
 
