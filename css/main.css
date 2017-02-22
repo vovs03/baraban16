@@ -14,17 +14,6 @@
 /*	Basic Style 
 /* =================================== */
 
-/*@import url("../blocks/b-tishina/b-tishina.css");*/
-@import url("../blocks/b-videos/b-videos.css");
-@import url("../blocks/b-razmery/b-razmery.css");
-@import url("../blocks/b-coordinates/b-coordinates.css");
-@import url("../blocks/b-footer/b-footer.css");
-@import url("../blocks/b-varianty-oplaty/b-varianty-oplaty.css");
-
-/*.b-display1 h1{
-    text-transform: uppercase;
-}*/
-
 body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -1468,3 +1457,14 @@ textarea.form-control {
         width: 380px;
     }
 }
+
+/*@import url("../blocks/b-tishina/b-tishina.css");*/
+@import url("../blocks/b-videos/b-videos.css");
+@import url("../blocks/b-razmery/b-razmery.css");
+@import url("../blocks/b-coordinates/b-coordinates.css");
+@import url("../blocks/b-footer/b-footer.css");
+@import url("../blocks/b-varianty-oplaty/b-varianty-oplaty.css");
+
+/*.b-display1 h1{
+    text-transform: uppercase;
+}*/
