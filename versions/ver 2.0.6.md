@@ -1,11 +1,16 @@
 # ver. 2.0.6  
-## (c) Дизайн и поддержка сайта. [OsArts.ru](https://OsArts.ru), 2016-2017
-## Date create: 2017-02-21
-Time 18:15
+ (c) Дизайн и поддержка сайта. [OsArts.ru](https://OsArts.ru), 2016-2017
+ Author: Vladimir Pavlychev
+ Date create: 2017-02-21
+ Time 18:15
 
-+ [x] Подключен протокол SSL, теперь сайт доступен по **https://** [baraban16.ru](https://baraban16.ru);
+## New added
+ + [x] Подключен протокол SSL, теперь сайт доступен по **https://** [baraban16.ru](https://baraban16.ru);
+ + [ ] Добавлены фото "До и после";
+ + [ ] Добавлены 2 + 3 видео;
+ + [ ] Script > Phone-Mask Check
 
-
+## Changes
  + [x] **Title & H1** = "Откатные барабаны для меха, а также опилки "Eco clean" для чистки меха"; 
  + [ ] **videos bgcolor:** white;
 
