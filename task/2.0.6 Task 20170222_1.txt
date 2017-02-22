@@ -1,9 +1,18 @@
-2.0.5. 1 - 
+# Version 2.0.6. - HTTPS + Dowload PDF 
+Date: 2017-02-22
+
+## New:
+[x] Hosting: added SSL-secure protocol, now website access by [https](https://baraban16.ru)
+[x] Add Block: "b-DownloadPDF"
+
+
+### New Photos "Before & After" 
+[x] txt-photo-txt-photo
 
 === Исправления:
-[x] Удалены строки кода: 644-671 (2.0.4)
-[x] Исправлено - кнопка заказа , 2 модальное окно (Надписи о СК-6 plus) 
-[x] Исправлено - в теме письма заголовок ...85.000 а надо 69.000 [2017.02.16_9:15- Заявка на сайте через кнопку заказа, в модальном окне, в инпуте стояло 85.000(2.0.4)]
+[x] 
+[x] 
+[x] 
 
 === Добавлено:
 

@@ -1,0 +1,679 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fu",
+				"function\t(index.html)"
+			],
+			[
+				"ru",
+				"ru-RU"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"st",
+				"style.css\t(kontakty.html)"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"g-our",
+				"g-our-contacts.js\t(g-our-contacts.js)"
+			],
+			[
+				"g-our-",
+				"g-our-contacts\t(kontakty-webstudii-osarts.html)"
+			],
+			[
+				"bol",
+				"bolder"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"gu",
+				"gulp"
+			],
+			[
+				"br",
+				"broweser-sync"
+			],
+			[
+				"M",
+				"myArray"
+			],
+			[
+				"doc",
+				"document.write"
+			],
+			[
+				"m",
+				"myArray"
+			],
+			[
+				"G",
+				"GeneratorGoroda"
+			],
+			[
+				"li",
+				"lightgray"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"light",
+				"lightgoldenrodyellow"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ge",
+				"getG"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"rez_",
+				"rez_eur"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"ft",
+				"float"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"border-",
+				"border-color"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"tt",
+				"tt-u\ttext-transform: uppercase;"
+			],
+			[
+				"wi",
+				"width\tAttr"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"wh",
+				"white"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/H/VOVA/GITrepo/baraban16/versions/ver 2.0.6.md",
+			"settings":
+			{
+				"buffer_size": 436,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pa",
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Packe",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Pa",
+				"Package Control: Install Package"
+			],
+			[
+				"paca",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 56.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"install"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/H/VOVA/GITrepo/baraban16",
+		"/H/VOVA/GITrepo/baraban16/blocks",
+		"/H/VOVA/GITrepo/baraban16/blocks/b-coordinates",
+		"/H/VOVA/GITrepo/baraban16/task",
+		"/H/VOVA/GITrepo/baraban16/versions"
+	],
+	"file_history":
+	[
+		"/H/VOVA/GITrepo/baraban16/.gitignore",
+		"/H/VOVA/GITrepo/baraban16/index.html",
+		"/H/VOVA/GITrepo/baraban16/versions/ver 2.0.6.md",
+		"/H/VOVA/BUSINESS/!BARABAN16/!site/!VER 2.0.5/js/main.js",
+		"/H/VOVA/BUSINESS/!BARABAN16/!site/!VER 2.0.5/css/main.css",
+		"/H/VOVA/BUSINESS/!BARABAN16/!site/!VER 2.0.5/blocks/b-videos/b-videos.css",
+		"/H/VOVA/BUSINESS/!ChistkaMeha.ru/!site/!VER 0.0.1/index.html",
+		"/H/VOVA/BUSINESS/!BARABAN16/!site/!VER 2.0.6/index.html",
+		"/H/VOVA/BUSINESS/!BARABAN16/!site/!VER 2.0.5/index.html",
+		"/H/VOVA/BUSINESS/!BARABAN16/!site/!VER 2.0.5/blocks/b-tishina/b-tishina.css",
+		"/H/VOVA/BUSINESS/!BARABAN16/!site/!VER 2.0.4/css/main.css",
+		"/C/Phaser-JS/Project-test01/index.html",
+		"/H/VOVA/BUSINESS/!BARABAN16/!site/!VER 2.0.4/index.html",
+		"/H/VOVA/BUSINESS/!BARABAN16/!site/!VER 2.0.4/send.php",
+		"/C/Users/Vladimir/Desktop/MP3/cudatext-win-x64-1.6.0.4/settings_default/default.json",
+		"/C/ARHYcamp/file.bat",
+		"/C/ARHYcamp/index.html",
+		"/C/Phaser-JS/Project-test01/js/preload.js",
+		"/C/Phaser-JS/Project-test01/js/boot.js",
+		"/C/Program Files/Python35/test2.py",
+		"/C/kivy-master/examples/demo/camera_puzzle.py",
+		"/C/Program Files/Python35/Lib/site-packages/kivy.deps.sdl2-0.1.17.dist-info/metadata.json",
+		"/C/Program Files/Python35/test1.py",
+		"/C/Users/Vladimir/Desktop/MP3/cudatext-win-x64-1.6.0.4/settings/history.json",
+		"/C/Users/Vladimir/Desktop/MP3/cudatext-win-x64-1.6.0.4/settings/history session.json",
+		"/H/VOVA/BUSINESS/MIFFKI-RU/SITE/VER 1.0/kontakty.html",
+		"/H/VOVA/BUSINESS/MIFFKI-RU/SITE/VER 1.0/detskiy-sad-utrenniki-protvino.html",
+		"/H/VOVA/BUSINESS/MIFFKI-RU/SITE/VER 1.0/videosemka-detskiy-sad-protvino.html",
+		"/H/VOVA/BUSINESS/MIFFKI-RU/SITE/VER 1.0/roditelyam.html",
+		"/H/VOVA/BUSINESS/MIFFKI-RU/SITE/VER 1.0/fotosemka-detey.html",
+		"/H/VOVA/BUSINESS/MIFFKI-RU/SITE/VER 1.0/ceny-na-uslugi-protvino.html",
+		"/H/VOVA/BUSINESS/osLANDING/SITE/VER_1.0/js/main.js",
+		"/H/VOVA/BUSINESS/MIFFKI-RU/SITE/VER 1.0/js/main.js",
+		"/H/VOVA/BUSINESS/MIFFKI-RU/SITE/VER 1.0/js/abz-changer.js",
+		"/H/VOVA/BUSINESS/osLANDING/SITE/VER_1.0/index.html",
+		"/H/VOVA/BUSINESS/MIFFKI-RU/SITE/VER 1.0/js/image-changer.js",
+		"/H/VOVA/BUSINESS/MIFFKI-RU/SITE/VER 1.0/b-allpage/b-allpage.css",
+		"/H/VOVA/BUSINESS/osLANDING/SITE/VER_1.0/blocks/b-city-mo/b-city-mo.css",
+		"/H/VOVA/BUSINESS/MIFFKI-RU/SITE/VER 1.0/200-porfolio/b-200-porfolio.css",
+		"/H/VOVA/BUSINESS/MIFFKI-RU/SITE/VER 1.0/css/style.css",
+		"/H/VOVA/BUSINESS/osLANDING/SITE/VER_1.0/css/style.css",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/blocks/b-business-landing/b-business-landing.css",
+		"/H/VOVA/BUSINESS/MIFFKI-RU/SITE/VER 1.0/sajt-protvino/sajt-protvino.html",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/index-prototype-site.html",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/index.html",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/blocks/b-facewebsite/b-facewebsite.css",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/blocks/b-city-mo/b-city-mo.css",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/css/style.css",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/blocks/g-our-contacts/g-our-contacts.js",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/blocks/g-our-contacts/g-our-contacts.json",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/blocks/b-all-content/b-all-content.css",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/kontakty-webstudii-osarts.html",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/sozdanie-sajta-pod-kljuch-moskva.html",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/zakazat-sozdanie-sajta-moskva.html",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/js/main.js",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/sozdanie-sajtov-moskva-vladimir-pavlychev.html",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/sozdanie sajtov moskva vladimir pavlychev.html",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/blocks/g-our-contacts/g-our-contacts.css",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/blocks/j-metrika-informer/j-metrika-informer.html",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/blocks/j-metrika-informer/j-metrika-informer__incaps.js",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/blocks/b-city-mo/b-city-mo__print.js",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/pages-keys/renames20161003-112keys-pages.html",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/blocks/g-localbusiness/g-localbusiness.js",
+		"/C/Users/Vladimir/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/Users/Vladimir/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/C/Users/Vladimir/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/gulp-ver/app/sass/main.sass",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/gulp-ver/app/index.html",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/gulp-ver/app/js/common.js",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/gulp-ver/gulpfile.js",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/gulp-ver/index.html",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/blocks/b-city-mo/b-city-mo.js",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/bak/goroda-print.js",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/test/style.css",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/test/goroda-print.js",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/test/test.html",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/present.html",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/index-1.0.2.html",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/intro.html",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/blocks/j-metrika-informer/j-metrika-informer__counter.js",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/blocks/j-metrika-informer/j-metrika-informer.js",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/blocks/j-metrika-informer/p-metrika-informer.html",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/blocks/j-metrika-informer/j-yandex-metrika-counter.js",
+		"/D/BUSINESS/osLANDING/SITE/VER_1.0/blocks/g-our-contacts/j-yandex-metrika-counter.js",
+		"/D/BUSINESS/osLANDING/SITE/index.html",
+		"/H/VOVA/BUSINESS/Проект BARABAN16/!site/HTML 5 CSS/index.html",
+		"/H/VOVA/BUSINESS/!BARABAN16/!site/!ver 2.0/index.html",
+		"/C/Users/Vladimir/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/C/Users/Vladimir/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/H/VOVA/РАБОЧИЙ СТОЛ/2016-08/28-08/Сайт1/index.html",
+		"/C/Users/Vladimir/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/H/VOVA/BUSINESS/Проект BARABAN16/!site/!ver 2.0/index.html",
+		"/H/VOVA/BUSINESS/!BARABAN16/!site/!ver 2.0/css/style.less",
+		"/H/VOVA/BUSINESS/!BARABAN16/!site/!ver 2.0/css/style.css",
+		"/H/VOVA/BUSINESS/k5220.ru/SVG/1st svg-prime.svg",
+		"/C/Users/Vladimir/Desktop/bootstrap/brightw/index-baraban16-boot.html",
+		"/H/VOVA/РАБОЧИЙ СТОЛ/2016-08/28-08/tast1.html",
+		"/H/VOVA/BUSINESS/GEEKBRAINS/OP-1/Les 1/PROGRAMMS/hw2_les1_igra v zagadki_v1-07.html",
+		"/H/VOVA/BUSINESS/GEEKBRAINS/OP-1/Les 2/les2_ex3.html",
+		"/H/VOVA/BUSINESS/GEEKBRAINS/OP-1/Les 1/PROGRAMMS/HW3/les1_hw3_koza_volk_kapusta v1-0.html",
+		"/H/VOVA/BUSINESS/GEEKBRAINS/OP-1/Les 1/PROGRAMMS/hw1_les1_kurs_valyut_v1-014.html",
+		"/H/VOVA/BUSINESS/GEEKBRAINS/OP-1/Les 1/PROGRAMMS/les1_hw3_uravnenie_v1-01.html",
+		"/H/VOVA/BUSINESS/GEEKBRAINS/OP-1/Les 1/PROGRAMMS/hw2_les1_igra v zagadki_v1-03.html",
+		"/H/VOVA/BUSINESS/GEEKBRAINS/OP-1/Les 1/les1/ex3les1.html",
+		"/H/VOVA/BUSINESS/GEEKBRAINS/OP-1/Les 1/les1/ex5les1.html",
+		"/H/VOVA/BUSINESS/GEEKBRAINS/OP-1/Les 1/les1/ex6les1.html",
+		"/H/VOVA/GEEKBRAINS/OP/HW/les1_hw2_igra v zagadki_v1-01.html",
+		"/H/VOVA/GEEKBRAINS/OP/HW/les1_hw2_igra v zagadki_v1-02.html",
+		"/H/VOVA/BUSINESS/GEEKBRAINS/Основы программирования/Урок 1/PROGRAMMS/hw2_les1_igra v zagadki_v1-01.html",
+		"/H/VOVA/BUSINESS/GEEKBRAINS/Основы программирования/Урок 1/PROGRAMMS/hw1_les1_kurs_valyut_v1-9.html",
+		"/H/VOVA/BUSINESS/GEEKBRAINS/Основы программирования/Урок 1/PROGRAMMS/hw1_les1_kurs_valyut_v1-010w.html",
+		"/H/VOVA/BUSINESS/GEEKBRAINS/Основы программирования/Урок 1/PROGRAMMS/hw1_les1_kurs_valyut_v1-7.html",
+		"/H/VOVA/BUSINESS/Проект BARABAN16/!site/WWW/baraban16-v-01-13/zadat-svoy-vopros.php",
+		"/C/Users/Vladimir/Desktop/bootstrap/brightw/css/bootstrap.css",
+		"/C/Users/Vladimir/Desktop/bootstrap/brightw/css/style.css",
+		"/H/VOVA/BUSINESS/GEEKBRAINS/Основы программирования/Урок 1/PROGRAMMS/ex3_les1_v3.html",
+		"/H/VOVA/BUSINESS/GEEKBRAINS/Основы программирования/Урок 1/PROGRAMMS/ex4_les1_v3.html",
+		"/H/VOVA/BUSINESS/GEEKBRAINS/Основы программирования/Урок 1/PROGRAMMS/ex5_les1.html",
+		"/H/VOVA/BUSINESS/GEEKBRAINS/Основы программирования/Урок 1/PROGRAMMS/Cheker - chek-box.html",
+		"/H/VOVA/BUSINESS/GEEKBRAINS/Основы программирования/Урок 1/PROGRAMMS/hw1_les1_kurs_valyut_v1-012.html",
+		"/C/Users/Vladimir/Desktop/style-1.css",
+		"/C/Users/Vladimir/Desktop/tast1.html",
+		"/C/Users/Vladimir/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Vladimir/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Vladimir/Desktop/pioneer-web/web/index.html",
+		"/C/Users/Vladimir/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/Vladimir/Desktop/pioneer-web/web/css/style.css",
+		"/C/Users/Vladimir/Desktop/pioneer-web/web/css/bootstrap.css"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"для",
+			"https",
+			"vide",
+			"ping",
+			"SK-6",
+			"tishina",
+			"dosta",
+			":40",
+			"тих",
+			"откатные барабаны",
+			"modal",
+			"br",
+			"зач",
+			"высота",
+			"вари",
+			"<!",
+			"Протвино",
+			"@",
+			"li",
+			"http://miffki.ru/pdf/sample-3pp.pdf",
+			"<div>\n\t\t\t\t<div id=\"head1\" class=\"b-facewebsite\">\n\t\t\t\t\t<table>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td><a href=\"/index.html\"><img src=\"/img/MI-LOGO.png\" alt=\"Сохраним история детства вместе. Детский фотограф в детских садах Протвино, Серпухова, Пущино\"></a></td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<div class=\"tele\"><a href=\"tel:+79154194805\">8-915-419-48-05</a>\n\t\t\t\t\t\t\t\t<div class=\"b-mail\"><a href=\"mailto:info@50foto.ru\">info@miffki.ru</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<div class=\"b-facewebsite__sitecolors\">\n\t\t\t\t\t\t\t\t<div class=\"cell-1 b-facewebsite__sitecolors_colors\"></div>\n\t\t\t\t\t\t\t\t<div class=\"cell-2 b-facewebsite__sitecolors_colors\"></div>\n\t\t\t\t\t\t\t\t<div class=\"cell-3 b-facewebsite__sitecolors_colors\"></div>\n\t\t\t\t\t\t\t\t<div class=\"cell-4 b-facewebsite__sitecolors_colors\"></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\n\t\t\t\t\t<h1 id=\"zag1\">Фотосъёмка и видеосъёмка в детских садах Протвино, Серпухова, Пущино</h1>\t\n\t\t\t\t\t\t<p id=\"abz1\"></p>\n\t\t\t\t\t<div class=\"menusajta\">\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#?/detskie-sady.html\">Детские сады</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#?/roditelyam.html\">Родителям</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#?/fotosemka-detey.html\">Фотосъёмка</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#?/videosemka-detskiy-sad-protvino.html\">Видеосъёмка</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#?/detskiy-sad-utrenniki-protvino.html\">Утренники</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#?/ceny-na-uslugi-protvino.html\">Цены</a></li>\n\t\t\t\t\t\t\t<li><a href=\"../kontakty.html\">Контакты</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>",
+			"i",
+			"Image",
+			"img",
+			"\"",
+			"650px",
+			"<a hre",
+			"<a h",
+			"class=\"item-",
+			"item-9",
+			"item-8",
+			"item-7",
+			"item-6",
+			"item-5",
+			"item-4",
+			"<li type=\"decimal-",
+			".html",
+			"<pre cl",
+			"> ",
+			"busin",
+			"metrika",
+			"import",
+			"city",
+			"[",
+			"<li type=\"decimal-leading-zero\"",
+			"<a href=\"",
+			"\"\"><",
+			"<li",
+			"><",
+			"N",
+			"html",
+			" \n",
+			"&ns_extend",
+			"слой",
+			"form",
+			"form-inline",
+			"45",
+			"up",
+			"\"ctrl+alt+v\"",
+			"browse",
+			"browser"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"videos",
+			"h5",
+			"abz"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/H/VOVA/GITrepo/baraban16/versions/ver 2.0.6.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 436,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"is_xml": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 28.0
+	},
+	"pinned_build_system": "",
+	"project": "Project-structure.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
