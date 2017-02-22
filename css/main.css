@@ -21,6 +21,9 @@
 @import url("../blocks/b-footer/b-footer.css");
 @import url("../blocks/b-varianty-oplaty/b-varianty-oplaty.css");
 
+/*.b-display1 h1{
+    text-transform: uppercase;
+}*/
 
 body {
     background-color: #fff;
