@@ -17,6 +17,6 @@ AddType 'text/html; charset=utf-8' .html .htm .shtml
 #RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 #Errors cicle ERR_TOO_MANY_REDIRECTS
 
-RewriteCond %{HTTPS} off
-RewriteCond %{HTTP:X-Forwarded-Proto} !https
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#RewriteCond %{HTTPS} off
+#RewriteCond %{HTTP:X-Forwarded-Proto} !https
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
