@@ -12,3 +12,6 @@ RewriteRule . /index.php [L]
 # END WordPress
 AddDefaultCharset utf-8
 AddType 'text/html; charset=utf-8' .html .htm .shtml
+
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{www.baraban16.ru}/$1 [R=301,L]
