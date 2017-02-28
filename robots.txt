@@ -22,6 +22,8 @@ User-agent: YandexMetrika
 User-agent: YandexNews
 User-agent: YandexBlogs
 
+User-agent:  Mail.RU_Bot
+
 User-agent: Googlebot-Image
 User-agent: Mediapartners-Google
 User-agent: Googlebot
