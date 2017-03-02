@@ -21,18 +21,13 @@ User-agent: YandexScreenshotBot
 User-agent: YandexMetrika
 User-agent: YandexNews
 User-agent: YandexBlogs
-
 User-agent:  Mail.RU_Bot
-
 User-agent: Googlebot-Image
 User-agent: Mediapartners-Google
 User-agent: Googlebot
-
 Allow: /
 Allow: /img
 Allow: /css
-
-
 Disallow: /awstats
 Disallow: /backup
 Disallow: /blocks
@@ -47,6 +42,5 @@ Disallow: /test-blocks
 Disallow: /test
 Disallow: /versions
 Disallow: /zip
-
 Host: https://www.baraban16.ru
 
