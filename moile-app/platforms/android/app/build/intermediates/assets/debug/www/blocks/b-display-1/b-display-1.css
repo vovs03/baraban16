@@ -1,0 +1,24 @@
+/*
+../blocks/b-display-1/b-display-1.css
+
+Host          : http://www.baraban16.ru         
+Author        : Vladimir Pavlychev ;            
+E-mail        : www@osarts.ru ;                 
+Create        : 2017.02.12 ;                  
+Time          : 11:50 ;                         
+Modified      : 2018.02.09                  
+Modified Time : 17:53 ;                         
+Version       : 2.1.7
+*/
+
+.b-display-1 {
+	padding-top: 20px;
+}
+
+.b-display-1__header {
+	BACKGROUND-COLOR: orange;
+}
+
+.b-display-1 h2 {
+	margin-top: 5px;
+}

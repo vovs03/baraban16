@@ -1,0 +1,4 @@
+#Mon Jul 30 22:33:30 MSK 2018
+base.0=/home/keyjoo/tmp/baraban16/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/home/keyjoo/tmp/baraban16/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

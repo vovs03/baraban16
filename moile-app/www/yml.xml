@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2017-03-02 14:51">
+    <shop>
+        <name>Меховщик Сервис</name>
+        <company>ООО "Протландия"</company>
+        <url>https://www.baraban16.ru/</url>
+        <currencies>
+            <currency id="RUR" rate="1"    plus="0"/>
+            <currency id="USD" rate="CBRF" plus="3"/>
+            <currency id="EUR" rate="CBRF" plus="3"/>
+            <currency id="UAH" rate="CBRF" plus="3"/>
+            <currency id="KZT" rate="CBRF" plus="3"/>
+        </currencies>
+        <categories>
+            <category id="1">Оборудование для меха</category>
+            <category id="10" parentId="1">Чистящие машины</category>
+            <category id="100" parentId="10">Откатные барабаны</category>
+            <category id="2">Чистящие средства</category>
+            <category id="20" parentId="2">Средства для чистки меховых изделий</category>
+            <category id="200" parentId="2">Буковые опилки(пропитка)</category>
+        </categories>
+        <cpa>1</cpa> 
+        <offers>
+            <offer id="20601" type="vendor.model" bid="10" cbid="20" available="true">
+                <url>https://www.baraban16.ru/market/mehovoy-baraban-sk-6-2017.xml?pid=20601</url>
+                <price>69000</price>
+                <currencyId>RUR</currencyId>
+                <categoryId type="Own">100</categoryId>
+                <picture>https://www.baraban16.ru/img/otkatnoy-baraban-sk-6-001.jpg</picture>
+                <store>true</store>
+                <pickup>true</pickup>
+                <delivery>true</delivery>
+                <sales_notes>Наличные, Visa/Mastercard, б/н расчет.</sales_notes>
+                <typePrefix>Оборудование для меха</typePrefix>
+                <vendor>BARABAN16.RU</vendor>
+                <vendorCode>BRO1703001RU</vendorCode>
+                <model>СК-6-2017</model>
+                <description>Оборудование, поставляемое в салоны чистки одежды, как альтернатива химчистки. Для мастеров скорняжного дела обязательный элемент в цикле предпродажной подготовки шкур, меховых изделий из соболя, норки, куницы, .</description>
+                <manufacturer_warranty>true</manufacturer_warranty>
+                <country_of_origin>Россия</country_of_origin>
+                <param name="Режим-1">Отминка меха</param>
+                <param name="Режим-2">Откатка меха</param>
+                <param name="Режим-3">Чистка меха</param>
+                <param name="Режим-4">Протряхивание меха</param>
+                <param name="Напряжение электросети">220 V</param>
+                <param name="Ширина">65 см</param>
+                <param name="Высота">120 см</param>
+                <param name="Глубина">115 см</param>
+                <param name="Вес">95 кг</param>
+                <param name="Объём загрузочной камеры">400 л</param>
+                <param name="Диаметр загрузочной камеры">100 см</param>
+                <param name="Ширина загрузочной камеры">50 см</param>
+            </offer>
+            <offer available="true">
+                <name>Буковые опилки Mekhhmag для чистки меха</name>
+                <url>https://www.baraban16.ru/market/opilki-dlya-chistki-mekhhmag-2017.xml?pid=20602</url>
+                <price>12000</price>
+                <currencyId>RUR</currencyId>
+                <categoryId type="Own">200</categoryId>
+                <picture>https://www.baraban16.ru/img/catalog/opilki-mekhhmag-2017-dlya-chistki-meha-001.jpg</picture>
+                <store>true</store>
+                <pickup>true</pickup>
+                <delivery>true</delivery>
+                <sales_notes>Наличные, Visa/Mastercard, б/н расчет.</sales_notes>
+                <typePrefix>Опилки для чистки меха</typePrefix>
+                <vendor>baraban16.ru</vendor>
+                <vendorCode>OPC1703001RU</vendorCode>
+                <model>Mekhhmag-03</model>
+                <description>Предназначение: чистка меховых изделий из соболя, норки, куницы в откатных барабанах. Чистящее средство, поставляемое в салоны чистки одежды, как альтернатива химчистки. Для мастеров скорняжного дела обязательный элемент в цикле предпродажной подготовки шкурок и меховых изделий.</description>
+                <manufacturer_warranty>true</manufacturer_warranty>
+                <country_of_origin>Россия</country_of_origin>
+                <param name="Ширина">38 см</param>
+                <param name="Высота">59 см</param>
+                <param name="Вес">22 кг</param>
+                <param name="Объём">50 л</param>
+            </offer>
+        </offers>
+        <delivery-options>
+            <option cost="300" days="1-3" order-before="15"/>
+        </delivery-options>
+    </shop>
+</yml_catalog>
