@@ -1,4 +1,0 @@
-memo: delete 
-<iframe width="462" height="297" 
-
-change to col-class bootstrap

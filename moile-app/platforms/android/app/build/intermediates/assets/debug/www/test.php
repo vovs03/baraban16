@@ -1,1 +1,0 @@
-﻿<php echo("Test for www.baraban16.ru") ?>
