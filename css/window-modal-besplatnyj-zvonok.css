@@ -1,0 +1,40 @@
+/* ==  /css/window-modal-besplatnyj-zvonok.css  */
+/* Host 		: http://www.baraban16.ru 			*/
+/* Author   	: Vladimir Pavlychev ;			*/
+/* E-mail   	: www@osarts 					*/
+/* Create   	: 2016.11.24	                */
+/* Time     	: 20:16 						*/
+/* Modified 	: 2016.11.25					*/
+/* Modified Time: 09:55 						*/
+/* Version  	: 1.0.0							*/
+
+
+/*Modal window ZVONOK*/
+
+.modal{
+	max-width: 380px;
+	margin: auto;
+}
+
+.form-input{
+	margin-top: 10px;
+	margin-bottom: 8px;
+	max-width: 360px;
+}
+.modal-dialog{
+	margin-top: 10%;
+}
+
+h4{
+	text-transform: uppercase;
+}
+
+.modal-header{
+	margin-top: -38px;
+	margin-right: -38px;
+	border-bottom: none;
+}
+
+.close{
+	text-shadow: none;
+}
