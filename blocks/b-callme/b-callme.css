@@ -1,0 +1,54 @@
+/*b-callme.css
+
+../blocks/b-callme/b-callme.css
+
+Host          : https://www.baraban16.ru         
+Author        : Vladimir Pavlychev ;            
+E-mail        : www@osarts.ru ;                 
+Create        : 2017.02.18 ;                  
+Time          : 20:40 ;                         
+Modified      : 2018.05.18                  
+Modified Time : 14:40 ;                         
+
+=========================================
+Version       : 3.0.1
+=========================================
+
+*/
+
+.b-callme__family {
+
+}
+
+.b-callme__phone {
+
+}
+
+.b-callme__mail {
+
+}
+
+.b-callme__btn {
+    border-radius: 0;
+    border: 0;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.b-callme__btn_green {
+	background-color: #00AF64;
+    box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
+    padding: 15px 40px;
+    color: #fff;
+    font-size: 10px;   
+}
+
+.b-callme__btn_small {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+

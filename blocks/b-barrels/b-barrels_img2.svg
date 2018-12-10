@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="102.35712mm"
+   height="40.011086mm"
+   viewBox="0 0 102.35712 40.011086"
+   version="1.1"
+   id="svg5588"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="b-barrels_img2.svg">
+  <title
+     id="title6189">2 BARREL - NO ECONOMY</title>
+  <defs
+     id="defs5582">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter920"
+       x="-0.022453675"
+       width="1.0449075"
+       y="-0.094412036"
+       height="1.1888241">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.10017654"
+         id="feGaussianBlur922" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter919"
+       x="-0.098445106"
+       width="1.1968902"
+       y="-0.073693194"
+       height="1.1473864">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.28519125"
+         id="feGaussianBlur921" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter920-3"
+       x="-0.022453675"
+       width="1.0449075"
+       y="-0.094412036"
+       height="1.1888241">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.10017654"
+         id="feGaussianBlur922-9" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1009"
+       id="linearGradient1003"
+       gradientUnits="userSpaceOnUse"
+       x1="43.183781"
+       y1="33.361603"
+       x2="86.273064"
+       y2="48.19717"
+       gradientTransform="matrix(1.4500836,0,0,1.4500836,-25.075442,-39.059473)" />
+    <linearGradient
+       id="linearGradient1009"
+       inkscape:collect="always">
+      <stop
+         id="stop1005"
+         offset="0"
+         style="stop-color:#ffcc00;stop-opacity:1" />
+      <stop
+         id="stop1007"
+         offset="1"
+         style="stop-color:#e580ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="167.65418"
+     inkscape:cy="36.240551"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1222"
+     inkscape:window-height="652"
+     inkscape:window-x="708"
+     inkscape:window-y="35"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5585">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>2 BARREL - NO ECONOMY</dc:title>
+        <dc:date>2018-06-28</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Vladimir Pavlychev</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Vladimir Pavlychev</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Inkscape</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:relation>https://www.baraban16.ru</dc:relation>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Опилки</rdf:li>
+            <rdf:li>Откатной барабан</rdf:li>
+            <rdf:li>чистка меха</rdf:li>
+            <rdf:li>экономия</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>https://github.com/KeyJoo/baraban16/issues/31</dc:description>
+        <dc:language>Russian</dc:language>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="2 barrels"
+     style="display:inline">
+    <rect
+       ry="8.5264063"
+       y="3.8433836e-006"
+       x="-2.4645996e-007"
+       height="40.011086"
+       width="102.35712"
+       id="rect961"
+       style="opacity:1;fill:url(#linearGradient1003);fill-opacity:1;stroke:none;stroke-width:2.55069709;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       transform="scale(0.76867461,1.3009406)"
+       id="text965"
+       y="25.028826"
+       x="9.8349476"
+       style="font-style:normal;font-weight:normal;font-size:6.80622673px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.31904188"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.31904188"
+         y="25.028826"
+         x="9.8349476"
+         id="tspan963"
+         sodipodi:role="line">2 Бочки</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.72551036px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12775831"
+       x="72.198967"
+       y="8.365324"
+       id="text973"
+       transform="scale(0.87568926,1.1419576)"><tspan
+         sodipodi:role="line"
+         id="tspan971"
+         x="72.198967"
+         y="8.365324"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.12775831">80 литров</tspan></text>
+    <text
+       transform="scale(0.87568926,1.1419576)"
+       id="text977"
+       y="5.3801632"
+       x="63.005081"
+       style="font-style:normal;font-weight:normal;font-size:2.72551036px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12775831"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.12775831"
+         y="5.3801632"
+         x="63.005081"
+         id="tspan975"
+         sodipodi:role="line">Опилки &quot;ECO-CLEAN&quot;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.72551036px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12775831"
+       x="63.005081"
+       y="11.580122"
+       id="text981"
+       transform="scale(0.87568926,1.1419576)"><tspan
+         sodipodi:role="line"
+         id="tspan979"
+         x="63.005081"
+         y="11.580122"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.12775831">На чистку 300 кг меха</tspan></text>
+    <g
+       style="opacity:0.77899996;fill:#999999;filter:url(#filter920-3)"
+       id="g991"
+       transform="matrix(3.9692077,0,0,3.8714479,-137.96032,-149.01401)">
+      <g
+         id="g1029"
+         transform="translate(1.9332219,-1.1892232)">
+        <text
+           transform="scale(0.87517831,1.1426243)"
+           id="text987"
+           y="41.140129"
+           x="49.1007"
+           style="font-style:normal;font-weight:normal;font-size:2.94472456px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.13803396"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#999999;stroke-width:0.13803396"
+             y="41.140129"
+             x="49.1007"
+             id="tspan985"
+             sodipodi:role="line">11 800</tspan></text>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:11.54338837px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.54109627"
+       x="44.585617"
+       y="24.460245"
+       id="text995"
+       transform="scale(0.88615921,1.1284654)"><tspan
+         sodipodi:role="line"
+         id="tspan993"
+         x="44.585617"
+         y="24.460245"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.54109627">11 800 </tspan></text>
+    <g
+       id="g1038"
+       transform="matrix(1.4500836,0,0,1.4500836,-26.871433,-88.37974)">
+      <path
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.75899994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path967"
+         sodipodi:type="arc"
+         sodipodi:cx="29.874128"
+         sodipodi:cy="73.989449"
+         sodipodi:rx="2.4568453"
+         sodipodi:ry="2.4568453"
+         sodipodi:start="5.879927"
+         sodipodi:end="5.8757556"
+         sodipodi:open="true"
+         d="m 32.133903,73.02534 a 2.4568453,2.4568453 0 0 1 -1.29331,3.222877 2.4568453,2.4568453 0 0 1 -3.224224,-1.289949 2.4568453,2.4568453 0 0 1 1.286585,-3.225567 2.4568453,2.4568453 0 0 1 3.226908,1.283221" />
+      <path
+         d="m 36.209764,73.02534 a 2.4568453,2.4568453 0 0 1 -1.29331,3.222877 2.4568453,2.4568453 0 0 1 -3.224224,-1.289949 2.4568453,2.4568453 0 0 1 1.286585,-3.225567 2.4568453,2.4568453 0 0 1 3.226908,1.283221"
+         sodipodi:open="true"
+         sodipodi:end="5.8757556"
+         sodipodi:start="5.879927"
+         sodipodi:ry="2.4568453"
+         sodipodi:rx="2.4568453"
+         sodipodi:cy="73.989449"
+         sodipodi:cx="33.949989"
+         sodipodi:type="arc"
+         id="path1034"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.75899994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:11.62271309px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff00cc;fill-opacity:1;stroke:none;stroke-width:0.54481465"
+       x="53.805382"
+       y="33.830368"
+       id="text1046"
+       transform="scale(0.87755809,1.1395257)"><tspan
+         sodipodi:role="line"
+         id="tspan1044"
+         x="53.805382"
+         y="33.830368"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ff00cc;stroke-width:0.54481465">2<tspan
+   style="font-size:10.89993095px;stroke-width:0.54481465"
+   id="tspan1060"> </tspan>000</tspan></text>
+    <text
+       transform="scale(0.79803607,1.2530762)"
+       id="text1042"
+       y="28.811207"
+       x="59.869247"
+       style="font-style:normal;font-weight:normal;font-size:3.7405026px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:0.856;fill:#672178;fill-opacity:1;stroke:none;stroke-width:0.17533606"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#672178;stroke-width:0.17533606"
+         y="28.811207"
+         x="59.869247"
+         id="tspan1040"
+         sodipodi:role="line">ВАША ЭКОНОМИЯ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.46173906px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:0.50700001;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20914404"
+       x="19.566711"
+       y="8.8525858"
+       id="text1066"
+       transform="scale(0.83580697,1.1964485)"><tspan
+         sodipodi:role="line"
+         id="tspan1064"
+         x="19.566711"
+         y="8.8525858"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.20914404"> 6 900 + <tspan
+   style="fill:#ff00cc;stroke-width:0.20914404"
+   id="tspan1068">4 900</tspan> = </tspan></text>
+    <text
+       transform="scale(0.83580697,1.1964485)"
+       id="text1165"
+       y="4.6415262"
+       x="40.78096"
+       style="font-style:normal;font-weight:normal;font-size:4.46173906px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20914404"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.20914404"
+         y="4.6415262"
+         x="40.78096"
+         id="tspan1163"
+         sodipodi:role="line"> 6 900</tspan></text>
+    <path
+       style="fill:none;stroke:#ff00cc;stroke-width:0.38366795px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 35.481301,4.6335369 c 11.820673,-1.93781 11.820673,-1.93781 11.820673,-1.93781 v 0"
+       id="path1167"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Rouble"
+     style="display:inline;opacity:1">
+    <g
+       transform="translate(-14.467847,-22.513646)"
+       style="opacity:1"
+       id="g1606">
+      <g
+         id="text850"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.26850605px;line-height:1.25;font-family:'ALS Rubl';-inkscape-font-specification:'ALS Rubl';letter-spacing:0px;word-spacing:0px;opacity:1;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.62196118;filter:url(#filter919)"
+         transform="matrix(0.97799292,0,0,1.0225023,13.852829,-22.962054)"
+         aria-label="p">
+        <path
+           inkscape:connector-curvature="0"
+           id="path926"
+           style="fill:#999999;stroke-width:0.62196118"
+           d="m 86.332944,67.515998 h 0.875722 v -4.776662 h 2.521016 q 0.835916,0 1.406461,0.145954 0.583815,0.132685 1.034944,0.43786 0.53074,0.35825 0.822647,0.88899 0.291907,0.517472 0.291907,1.340119 0,0.610352 -0.225564,1.141092 -0.212296,0.53074 -0.597083,0.915527 -0.477666,0.477666 -1.141091,0.716499 -0.650157,0.238833 -1.645295,0.238833 h -1.233971 v 0.875722 h 4.312264 v 1.06148 h -4.312264 v 1.525878 h -1.233971 v -1.525878 h -0.875722 v -1.06148 h 0.875722 v -0.862453 h -0.875722 z m 5.665652,-1.937202 q 0,-0.477666 -0.17249,-0.835915 -0.172491,-0.35825 -0.504203,-0.583815 -0.305176,-0.185759 -0.689963,-0.26537 -0.384786,-0.09288 -0.968601,-0.09288 h -1.220702 v 3.715181 h 1.034943 q 0.756305,0 1.220703,-0.132685 0.464397,-0.145953 0.756305,-0.43786 0.305175,-0.291908 0.424592,-0.62362 0.119416,-0.331713 0.119416,-0.743036 z" />
+      </g>
+      <g
+         id="text868"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.26850605px;line-height:1.25;font-family:'ALS Rubl';-inkscape-font-specification:'ALS Rubl';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.62196118"
+         transform="scale(0.97799292,1.0225023)"
+         aria-label="p">
+        <path
+           id="path923"
+           style="fill:#ffffff;stroke-width:0.62196118"
+           d="m 99.743858,44.597198 h 0.875722 v -4.776662 h 2.52102 q 0.83591,0 1.40646,0.145953 0.58381,0.132685 1.03494,0.437861 0.53074,0.35825 0.82265,0.88899 0.2919,0.517472 0.2919,1.340119 0,0.610351 -0.22556,1.141092 -0.2123,0.53074 -0.59708,0.915526 -0.47767,0.477667 -1.14109,0.7165 -0.65016,0.238833 -1.6453,0.238833 h -1.23397 v 0.875721 h 4.31226 v 1.061481 h -4.31226 v 1.525878 h -1.23397 v -1.525878 h -0.875722 v -1.061481 h 0.875722 v -0.862453 h -0.875722 z m 5.665652,-1.937202 q 0,-0.477666 -0.17249,-0.835916 -0.17249,-0.358249 -0.5042,-0.583814 -0.30518,-0.185759 -0.68997,-0.26537 -0.38478,-0.09288 -0.9686,-0.09288 h -1.2207 v 3.715182 h 1.03494 q 0.75631,0 1.22071,-0.132685 0.46439,-0.145954 0.7563,-0.437861 0.30518,-0.291907 0.42459,-0.62362 0.11942,-0.331712 0.11942,-0.743036 z"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+  </g>
+</svg>

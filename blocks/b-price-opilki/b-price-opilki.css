@@ -1,0 +1,22 @@
+/* ===  ./blocks/b-price-opilki/b-price-opilki.css"  
+Host 		  : http://www.baraban16.ru 		
+Author   	  : Vladimir Pavlychev ;			
+E-mail   	  : www@osarts.ru ;					
+Create   	  : 2017.11.30 ;                  
+Time     	  : 19:23 ; 						
+Modified 	  : 2017.11.30					
+Modified Time : 21:12 ; 						
+Version  	  : 2.1.4							*/
+
+.card__cost {
+	font-size: 32px;
+	line-height: 32px;
+	background-color: #04859D;
+	color: #fff;
+	padding: 20px 0;
+	height: 80px;
+}
+
+.card__cost_line-del {
+	text-decoration: line-through;
+}
