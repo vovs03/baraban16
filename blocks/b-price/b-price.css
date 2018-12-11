@@ -1,0 +1,167 @@
+/* ===  ./blocks/b-downloads1/bb-downloads1.css"  
+Host 		  : http://www.baraban16.ru 		
+Author   	  : Vladimir Pavlychev ;			
+E-mail   	  : www@osarts.ru ;					
+Create   	  : 2017.12.01 ;                  
+Time     	  : 13:10 ; 						
+Modified 	  : 2017.12.01					
+Modified Time : 13:12 ; 						
+Version  	  : 2.1.4							*/
+
+
+/*=====================================================================================
+    Price section
+======================================================================================*/
+#price-1 h3 {
+    color: #015666;
+}
+
+.price-section {
+    margin: 0 0 50px 0;
+}
+
+.price__header--UpCase strong{
+    transform: uppercase;
+}
+
+.price-table {
+    border: 1px solid #e3e3e3;
+}
+
+.price-table.featured {
+    -webkit-box-shadow: 0 4px 5px rgba(0,0,0,0.19);
+       -moz-box-shadow: 0 4px 5px rgba(0,0,0,0.19);
+            box-shadow: 0 4px 5px rgba(0,0,0,0.19);
+}
+
+.price-table > span {
+    color: #252525;
+    display: block;
+    font-size: 24px;
+    padding: 30px 0;
+    text-transform: uppercase;
+}
+
+.price-table .value {
+    background-color: #04859D;
+    color: #fff;
+    padding: 20px 0;
+    height: 80px;
+
+    -webkit-transition: all 0.7s ease 0s;
+       -moz-transition: all 0.7s ease 0s;
+        -ms-transition: all 0.7s ease 0s;
+         -o-transition: all 0.7s ease 0s;
+            transition: all 0.7s ease 0s;
+}
+
+.price-table.featured .value {
+    background-color: #FF7C00;
+    color: #fff;
+}
+
+.b-price-opilki__color-green ul {
+    background-color: #07E60B;
+    color: #fff;
+}
+
+.b-price-opilki_header__uppercase h2 {
+    transform: uppercase;
+}
+
+.b-price-opilki_price .value span:nth-child(2) {
+    font-size: 65px;
+    line-height: 65px;
+    margin-bottom: 25px;
+
+}
+
+.price-table .value span {
+    display: inline-block;
+}
+
+.price-table .value span:first-child {
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.price-table .value span:nth-child(2) {
+    font-size: 65px;
+    line-height: 65px;
+    margin-bottom: 25px;
+}
+
+.price-table .value span:last-child {
+    font-size: 16px;
+}
+
+.price-table ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.price-table ul li {
+    border-top: 1px solid #e3e3e3;
+    display: block;
+    padding: 25px 0;
+
+    -webkit-transition: all 0.7s ease 0s;
+       -moz-transition: all 0.7s ease 0s;
+        -ms-transition: all 0.7s ease 0s;
+         -o-transition: all 0.7s ease 0s;
+            transition: all 0.7s ease 0s;
+}
+
+.price-table ul li a {
+    display: block;
+    text-transform: uppercase;
+}
+
+.price-table.featured ul li:last-child,
+.price-table ul li:last-child:hover {
+    background-color: #FF4900;
+}
+
+.price-table.featured ul li:last-child a,
+.price-table ul li:last-child:hover a {
+    color: #fff;
+}
+
+.stock__action3 {
+    padding: 0 0 250px 0;
+}
+
+
+#price-card-standart h3{
+    color:#fff!important;
+    background-color: #FF4900;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+
+}
+
+#price-card-opilki h3{
+    color:              #fff!important;
+    background-color: 	#FF4900;
+    margin-top: 		0px;
+    padding: 			0px 0;
+    padding-top: 		50px;
+    padding-bottom: 	40px;
+    margin-bottom: 		0px;
+    text-transform: 	uppercase;
+
+}
+
+.card__cost_color-light {
+	font-size: 32px;
+	line-height: 32px;
+	background-color: #FF7C00;
+	color: #fff;
+	padding: 20px 0;
+	height: 80px;
+}

@@ -1,0 +1,88 @@
+/* ../blocks/b-road.css
+Date create: 2018-03-22
+Time create: 23:23;
+
+http://mattweb.ru/moj-blog/html-verstka/item/143-razmeschaem-adaptivnuyu-kartu-google-na-svoem-sajte
+http://via.placeholder.com/350x150
+
+SVG record
+http://www-dev.cockos.com/licecap/
+
+
+*/
+
+.b-road-map__header {
+
+}
+
+.b-road-map__img {
+	/*margin-left: 150px;*/
+	margin: 20px 0px 20px 10px;
+	width: 90%;
+}
+
+.b-road-map__navigator {
+
+}
+
+.b-road-map__google-map {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.b-road-map__google-map_responsive iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+
+/*==========================================
+=  MOBILE
+============================================*/
+
+@media only screen and (min-width: 284px) and (max-width: 480px) {
+
+
+/*====   __HEADER              ============= */
+
+.b-road-map__header h2 {
+	font-size: 16px;
+	margin-left: 20px;
+}
+}
+
+
+/*====   __IMG                ============= */
+
+.b-road-map__img {
+	/* margin: 10 30 10 30; */
+	/*
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+
+	*/
+} 
+
+
+/*====   __NAVIGATOR          ============= */
+
+.b-road-map__navigator h3 {
+	margin-left: 20px;
+	font-size:  18px;
+}
+
+.b-road-map__navigator p {
+	margin-left: 30px;
+}
+

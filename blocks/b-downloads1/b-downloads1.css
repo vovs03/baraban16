@@ -1,0 +1,176 @@
+/* ===  ./blocks/b-downloads1/bb-downloads1.css"  
+Host 		  : http://www.baraban16.ru 		
+Author   	  : Vladimir Pavlychev ;			
+E-mail   	  : www@osarts.ru ;					
+Create   	  : 2017.12.01 ;                  
+Time     	  : 11:50 ; 						
+Modified 	  : 2017.12.01					
+Modified Time : 13:00 ; 						
+Version  	  : 2.1.4							*/
+
+
+#downloads-free {   
+    margin-left: 4px;
+    width: 580px;
+}
+
+
+/* Colors-Theme */
+.b-downloads1_color-dark {
+    color: #015666;
+}
+
+
+
+
+/*====================================
+        Downloads-Group
+======================================*/
+#downloads-group-01 {
+    background: #5fbdce;
+    height: 530px;
+}
+
+#download-free {
+    background: #5fbdce;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+    height: 600px;
+    margin-left: 4px;
+    width: 580px;
+}
+
+#downloads-header {
+    margin-bottom: 4px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    height: 60px;
+    margin-top: 20px;
+    padding-top: 0px;
+    background: #FF7C00;
+}
+
+.b-downloads1__item1 h4 {
+    color: #fff!important;
+}
+
+.b-downloads1__item2_color p{
+    color: #015666!important;
+}
+
+.b-downloads1__header_color-white h4 {
+    color: #fff!important;
+}
+
+
+
+.b-downloads1__header h3 {
+    color: #fff!important;
+    background: #FF7C00;
+    bottom: 30px;
+    /*float: right; */
+}
+
+
+.b-downloads1__header_color-white   {
+    margin-left: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 370px;
+
+}
+
+.b-downloads1_blue {
+    background: #5fbdce;
+    padding-bottom: 10px;
+
+    /*margin-bottom: 5px; */
+}
+
+.b-downloads2 {
+    border-color: #fff;
+    border-radius: 1px;
+}
+
+.b-download-block {
+    background: #5fbdce;
+    padding-bottom: 10px;
+
+    /*margin-bottom: 5px; */
+}
+
+
+.separator p {
+    color: #fff;
+    text-align:  center;
+}
+
+
+/* =========================== 
+        Buttons 
+============================== */
+
+
+#call-me {
+    margin-right: 25px;
+}
+
+
+#download-1-1 {
+    margin-bottom: 30px;
+}
+
+.b-downloads-free__button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 35px;
+    bottom: 0px;
+    top: 10px;
+
+}
+
+/*
+#download-1-btn  {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 35px;
+    bottom: 0px;
+    top: 10px;
+    width: 50px;'''''''''''''''
+}
+*/
+
+/*
+#download-1-btn a{
+    /*width: 150px;'''''''''''''''''''
+    margin-left: 20px;
+
+}
+
+#download-2-1 {
+    margin-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 15px;
+
+}
+
+#download-2-btn {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    right: 25px;
+    top: 10px;
+}
+
+#download-3-btn {
+    right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+*/

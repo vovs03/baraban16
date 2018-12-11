@@ -1,0 +1,48 @@
+/* b-attention.css
+
+../site/%21ver_3.0.1/blocks/b-attention/b-attention.css
+
+Host          : https://www.baraban16.ru         
+Author        : Vladimir Pavlychev ;            
+E-mail        : www@osarts.ru ;                 
+Create        : 2017.05.18 ;                  
+Time          : 14:59 ;                         
+Modified      : 2018.05.18                  
+Modified Time : 15:01 ; 15:28; 15:36;                        
+
+=========================================
+Version       : 3.0.1
+=========================================
+*/
+
+.b-attention {
+	margin-top: 50px;
+	padding-top: 30px;
+
+	font-size: x-large;
+	font-weight: bold;
+	color: #17cf19;
+	/*width: 950px;*/
+	height: 150px;
+	background-color: #f0f0f0;
+	text-transform: uppercase; /*15:36*/
+}
+
+p .b-attention {
+	line-height: 30px;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 640px) {
+	.b-attention  {
+	height: 220px;
+	}
+}
+
+
+@media (min-width: 240px) and (max-width: 319px) {
+	.b-attention  {
+	height: 260px; /*15:47*/
+	}
+}

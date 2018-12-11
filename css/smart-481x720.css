@@ -1,0 +1,31 @@
+/* === cs/smart-481x720.css === */
+/* Host 		: http://www.baraban16.ru 			*/
+/* Author   	: Vladimir Pavlychev ;			*/
+/* E-mail   	: www@osarts ;					*/
+/* Create   	: 2016.11.24 ;                  */
+/* Time     	: 21:05 ; 						*/
+/* Modified 	: 2016.11.24					*/
+/* Modified Time: 21:18 ; 						*/
+/* Version  	: 1.0.1							*/
+
+/*		SMART X 720			*/
+@media(min-width:481px) and (max-width:720px) {
+#wrapper, #content, .b-allpage{
+	margin: 0px;
+}
+
+
+
+}
+
+@media only screen and (min-width: 414px) and (max-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2){
+.tele{
+	margin-left: 400px;
+	padding-top: 20px;
+	color: brown;
+}
+
+.menusajta{
+	margin-left: 600px;
+}
+}
