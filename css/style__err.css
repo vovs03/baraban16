@@ -1,0 +1,138 @@
+/* =======  ../css/style.css" =======  */
+/* Host 		: http://www.baraban16.ru 			*/
+/* Author   	: Vladimir Pavlychev ;			*/
+/* E-mail   	: www@osarts ;					*/
+/* Create   	: 2016.11.23 ;                  */
+/* Time     	: 13:16 ; 						*/
+/* Modified 	: 2016.11.24					*/
+/* Modified Time: 21:07 ; 						*/
+/* Version  	: 1.0.1							*/
+
+/*
+@import url("../b-allpage/b-allpage.css");
+@import url("../200-porfolio/b-200-porfolio.css");
+@import url("../prazdniki/prazdniki-pdf.css"); 
+*/
+@import url("../css/bootstrap.min.css"); 
+@import url("../css/tooltip-viewport.css"); 
+@import url('../css/window-modal-besplatnyj-zvonok.css');
+@import url('../css/smart-481x720.css');
+
+@import url('../fonts/roboto_slab/stylesheet.css');
+@import url('../fonts/roboto_light_cyrillic/stylesheet.css');
+@import url('../fonts/roboto_lightitalic_cyrillic/stylesheet.css');
+@import url('../fonts/roboto_regular_cyrillic/stylesheet.css');
+@import url('../fonts/roboto_bold_cyrillic/stylesheet.css');
+@import url('../fonts/roboto_medium_cyrillic/stylesheet.css');
+
+
+
+
+/*		HEADER		*/
+.tele{
+	margin-left: 900px;
+	padding-top: 20px;
+	color: brown;
+}
+
+.tele1 a{
+    color: brown;
+    padding-left: 34px;
+}
+
+.menusajta {
+	display: inline-block;
+	margin-top: 50px;
+	color: brown;
+}
+
+.menusajta a{
+	margin-right: 20px;
+}
+
+.b-allpage{
+	margin-left: 20px;
+}
+
+.video-preview {
+    display: block;
+    margin: 6em auto;
+    position: relative;
+    width: 82em;
+}
+
+
+a.play-link {
+    display: block;
+}
+
+button:focus{
+	outline: none;
+}
+
+ol{
+	margin-left: 40px;
+}
+
+
+h1{
+	margin-left: 50px;
+	color: brown;
+}
+
+h2{
+	margin-left: 20px;
+	margin-top: 60px;
+	color: brown;
+}
+h3{
+	color: brown;
+}
+
+#cena h3{
+	margin-top: 50px;
+}
+.zagolovok2{
+	width: 100%;
+}
+.block{
+	margin-left: 50px;
+}
+
+.b-allpage p, ul, h3, h4{
+margin-left: 20px;
+}
+.b-allpage h2{
+	color: brown;
+}
+h4{
+	color: brown;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.besplatnyj-zv h3{
+	color: red;
+}
+
+.tele{
+	margin-left: 10px;
+	padding-top: 10px;
+	color: brown;
+}
+
+.menusajta {
+	display: inline-block;
+	margin-top: 30px;
+	color: brown;
+}
+
+
+/*		SMART X 320			*/
+@media all and(max-width: 320px;){
+	#wrapper, #content, .b-allpage{
+	margin: 0px;
+	}
+
+}
+

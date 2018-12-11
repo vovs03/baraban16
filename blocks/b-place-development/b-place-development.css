@@ -1,0 +1,19 @@
+/* ===  .blocks/b-place-development/b-place-development.css"  
+Host 		  : http://www.baraban16.ru 		
+Author   	  : Vladimir Pavlychev ;			
+E-mail   	  : www@osarts.ru ;					
+Create   	  : 2018.12.10 ;                  
+Time     	  : 18:24 ; 						
+Modified 	  : 2018.12.10					
+Modified Time : 18:25 ; 						
+Version  	  : 3.2.0							*/
+
+.b-place-development {
+	background-color: #bfff00;
+	color: #131a00;
+	padding-bottom: 30px;
+}
+
+h2 {
+	color: #131a00;	
+}

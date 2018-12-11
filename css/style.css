@@ -1,0 +1,172 @@
+/* =======  ../css/style.css" =======  */
+/* Host 		: http://www.baraban16.ru 			*/
+/* Author   	: Vladimir Pavlychev ;			*/
+/* E-mail   	: www@osarts ;					*/
+/* Create   	: 2016.11.23 ;                  */
+/* Time     	: 13:16 ; 						*/
+/* Modified 	: 2016.11.28					*/
+/* Modified Time: 11:44 ; 						*/
+/* Version  	: 1.0.1							*/
+
+/*
+@import url("../b-allpage/b-allpage.css");
+@import url("../200-porfolio/b-200-porfolio.css");
+@import url("../prazdniki/prazdniki-pdf.css"); 
+*/
+@import url("../css/bootstrap.min.css"); 
+@import url("../css/tooltip-viewport.css"); 
+@import url('../css/window-modal-besplatnyj-zvonok.css');
+
+@import url('../blocks/b-opilki/b-opilki.css');
+@import url('../blocks/b-dostavka/b-dostavka.css');
+@import url('../blocks/b-priezzhajte/b-priezzhajte.css');
+
+@import url('../fonts/roboto_slab/stylesheet.css');
+@import url('../fonts/roboto_light_cyrillic/stylesheet.css');
+@import url('../fonts/roboto_lightitalic_cyrillic/stylesheet.css');
+@import url('../fonts/roboto_regular_cyrillic/stylesheet.css');
+@import url('../fonts/roboto_bold_cyrillic/stylesheet.css');
+@import url('../fonts/roboto_medium_cyrillic/stylesheet.css');
+
+
+
+
+/*		HEADER		*/
+
+a:hover,
+a:visited,
+a:focus,
+a:active{
+	text-decoration: none;
+}
+
+/*
+#g-all-website{
+	max-width: 1200px;
+  	position: absolute;
+  	left: 50%;
+  	margin-left: -450px;
+  	margin-bottom: 0px;
+}
+*/
+
+.i-bar{
+	margin: auto;
+}
+
+.b-allpage{
+	margin-left: 20px;
+}
+
+.b-facewebsite{
+	min-width: 1200px;
+}
+
+.btn-zv{
+	margin-left: 500px;
+}
+
+#FootIndex{
+	margin-left: 50px;
+}
+
+.f10{
+	margin-left: 10px;
+}
+
+.sec1 h2{
+	margin-top: -60px;
+}
+
+.tele0 {
+	margin-top: 20px;
+	margin-left: 0px;
+	padding-bottom: 0px;
+	color: brown;
+
+}
+.tele0 a{
+	color: brown;
+}
+
+.tele1 a{
+    color: brown;
+    padding-left: 0px;
+}
+
+.fo1{
+	color: brown;
+	margin-left: 100px;
+}
+
+
+.menusajta{
+	margin-top: 120px;
+	margin-left: 230px;
+	color: brown;
+	text-transform: uppercase;
+}
+
+
+
+.menusajta a{
+	margin-right: 20px;
+	color: brown;
+}
+
+#otk-h1{
+	margin-bottom: 0px;
+	width: 800px;
+}
+
+button:focus{
+	outline: none;
+}
+
+ol{
+	margin-left: 40px;
+}
+
+
+h1{
+	margin-left: 100px;
+	color: brown;
+	text-transform: uppercase;
+}
+
+h2{
+	margin-left: 20px;
+	margin-top: 60px;
+	color: brown;
+}
+h3{
+	color: brown;
+}
+
+#cena h3{
+	margin-top: 50px;
+}
+.zagolovok2{
+	width: 100%;
+}
+.block{
+	margin-left: 50px;
+}
+
+.b-allpage p, ul, h3, h4{
+margin-left: 20px;
+}
+.b-allpage h2{
+	color: #fff5634;
+}
+h4{
+	color: brown;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.besplatnyj-zv h3{
+	color: red;
+}
+
+
