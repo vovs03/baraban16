@@ -7,26 +7,21 @@ Author        : Vladimir Pavlychev ;
 E-mail        : www@osarts.ru ;                 
 Create        : 2017.02.18 ;                  
 Time          : 20:40 ;                         
-Modified      : 2018.05.18                  
-Modified Time : 14:40 ;                         
+Modified      : 2018.12.11                  
+Modified Time : 13:11 ;                         
 
 =========================================
-Version       : 3.0.1
+Version       : 3.2.1
 =========================================
 
 */
 
-.b-callme__family {
+/*.b-callme__family {}
 
-}
+.b-callme__phone {}
 
-.b-callme__phone {
-
-}
-
-.b-callme__mail {
-
-}
+.b-callme__mail {}
+*/
 
 .b-callme__btn {
     border-radius: 0;
@@ -36,11 +31,19 @@ Version       : 3.0.1
 }
 
 .b-callme__btn_green {
-	background-color: #00AF64;
+    background-color: #00AF64;
     box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
     padding: 15px 40px;
     color: #fff;
-    font-size: 10px;   
+    font-size: 10px;
+}
+
+.b-callme__btn_orange {
+    background-color: #ff4500;
+    box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
+    padding: 15px 40px;
+    color: #fff;
+    font-size: 10px;
 }
 
 .b-callme__btn_small {
@@ -49,6 +52,3 @@ Version       : 3.0.1
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
-
-

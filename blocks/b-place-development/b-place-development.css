@@ -9,5 +9,11 @@ Modified Time : 18:25 ;
 Version  	  : 3.2.0							*/
 
 .b-place-development {
-	background-color: green;
+	background-color: #bfff00;
+	color: #131a00;
+	padding-bottom: 30px;
+}
+
+h2 {
+	color: #131a00;	
 }

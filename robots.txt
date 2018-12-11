@@ -1,15 +1,15 @@
 #####################################################
-# Site version 3.1.0
+# Site version 3.2.0
 # Made with love from Protvino
 # Studio "OS Arts"
 # Web-site Studio: https://www.osarts.ru
-# Call: 8(915)419-48-05 Viber/WhatsApp
+# Call: +7(915)419-48-05 Viber/WhatsApp
 # Create: 2016-11-28
 # Time: 12:35
-# Update: 2018-11-05
+# Update: 2018-12-11
 # Time: 21:42, send
 # For host: https://www.baraban16.ru
-# robots.txt ver. 3.1.0
+# robots.txt ver. 3.2.0
 # site-map - no
 #####################################################
 
@@ -21,7 +21,7 @@ User-agent: YandexScreenshotBot
 User-agent: YandexMetrika
 User-agent: YandexNews
 User-agent: YandexBlogs
-User-agent:  Mail.RU_Bot
+User-agent: Mail.RU_Bot
 User-agent: Googlebot-Image
 User-agent: Mediapartners-Google
 User-agent: Googlebot

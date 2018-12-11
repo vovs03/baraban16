@@ -1,0 +1,23 @@
+/* ===  .blocks/b-place-development/b-place-development.css"  
+Host 		  : http://www.baraban16.ru 		
+Author   	  : Vladimir Pavlychev ;			
+E-mail   	  : www@osarts.ru ;					
+Create   	  : 2018.12.11 ;                  
+Time     	  : 11:58 ; 						
+Modified 	  : 2018.12.11					
+Modified Time : 12:06 ; 						
+Version  	  : 3.2.0							*/
+
+.b-chat__btn {
+    visibility: visible;
+    animation-name: fadeInUp;
+    margin-top: 20px;
+}
+
+.b-chat__btn_orange {
+    background-color: #ff4500;
+    box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
+    padding: 15px 40px;
+    color: #fff;
+    font-size: 10px;
+}
