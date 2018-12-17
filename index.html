@@ -18,11 +18,46 @@
   <meta name="robots" content="noodp">
   <meta name="expires" content="Mon, 11 Nov 2019 00:00:00 GMT">
 
-  <link rel="icon" id="favicon" href="favicon1.png" type="image/x-icon" />
+  <link rel="icon" id="favicon" type="image/x-icon" sizes="16x16" href="img/icons/favicon-16x16.png"/>
+  <link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="img/icons/touch-icon-ipad-retina_512x512.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+  
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/icons/ms-icon-144x144.png">
+  
+  <!-- Generator -->
+  <link rel="manifest" href="manifest.json">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="откатные барабаны">
+  <meta name="apple-mobile-web-app-title" content="откатные барабаны">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-navbutton-color" content="#ffffff">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="msapplication-starturl" content="/?utm_source=baraban16.ru&utm_medium=pwa">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="icon" type="image/png" sizes="192x192" href="https://www.baraban16.ru/img/icons/android-icon-192x192.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="https://www.baraban16.ru/img/icons/android-icon-192x192.png">
+  <!-- END/Generator-->
+
   <link rel="alternate" hreflang="ru" href="https://www.baraban16.ru/" />
   <link rel="alternate" hreflang="ru-ru" href="https://www.baraban16.ru/" />
   <link rel="alternate" href="https://www.baraban16.ru/" hreflang="x-default" />
-  <link rel="amphtml" href="blocks/b-place-development/b-place-development.html">
+  <!-- <link rel="amphtml" href="blocks/b-place-development/b-place-development.html"> -->
 
   <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -66,6 +101,22 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
   <?php include("analyticstracking2018.php") ?>
+
+  <script>
+    //This is the "Offline page" service worker
+
+    //Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
+    if (navigator.serviceWorker.controller) {
+      console.log('[PWA Builder] active service worker found, no need to register')
+    } else {
+      //Register the ServiceWorker
+      navigator.serviceWorker.register('pwabuilder-sw.js', {
+        scope: './'
+      }).then(function(reg) {
+        console.log('Service worker has been registered for scope:'+ reg.scope);
+      });
+    }
+  </script>
 </head>
   
 <body id="body">
@@ -559,7 +610,7 @@
         </div>
         
         <div class="footer-content" style="font-size: 8px;">
-          <p>Версия сайта 3.2.3  опубликован: 2018-12-17 <span>13:45</span></p>
+          <p>Версия сайта 3.3.0  опубликован: 2018-12-17 <span>20:34</span></p>
         </div>
         
         <!-- <div id="onlineSupportContainer" style="height:400px; width:100%;"></div> -->
