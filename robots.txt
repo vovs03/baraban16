@@ -1,15 +1,15 @@
 #####################################################
-# Site version 3.2.0
+# Site version 3.2.3
 # Made with love from Protvino
 # Studio "OS Arts"
 # Web-site Studio: https://www.osarts.ru
 # Call: +7(915)419-48-05 Viber/WhatsApp
 # Create: 2016-11-28
 # Time: 12:35
-# Update: 2018-12-11
-# Time: 21:42, send
+# Update: 2018-12-17
+# Time: 13:48, send
 # For host: https://www.baraban16.ru
-# robots.txt ver. 3.2.0
+# robots.txt ver. 3.2.3
 # site-map - no
 #####################################################
 
@@ -43,5 +43,5 @@ Disallow: /test-blocks
 Disallow: /test
 Disallow: /versions
 Disallow: /zip
-Disallow: .htaccess
+Disallow: *.htaccess
 Host: https://www.baraban16.ru

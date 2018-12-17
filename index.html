@@ -18,11 +18,46 @@
   <meta name="robots" content="noodp">
   <meta name="expires" content="Mon, 11 Nov 2019 00:00:00 GMT">
 
-  <link rel="icon" id="favicon" href="favicon1.png" type="image/x-icon" />
+  <link rel="icon" id="favicon" type="image/x-icon" sizes="16x16" href="img/icons/favicon-16x16.png"/>
+  <link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="img/icons/touch-icon-ipad-retina_512x512.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+  
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/icons/ms-icon-144x144.png">
+  
+  <!-- Generator -->
+  <link rel="manifest" href="manifest.json">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="откатные барабаны">
+  <meta name="apple-mobile-web-app-title" content="откатные барабаны">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-navbutton-color" content="#ffffff">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="msapplication-starturl" content="/?utm_source=baraban16.ru&utm_medium=pwa">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="icon" type="image/png" sizes="192x192" href="https://www.baraban16.ru/img/icons/android-icon-192x192.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="https://www.baraban16.ru/img/icons/android-icon-192x192.png">
+  <!-- END/Generator-->
+
   <link rel="alternate" hreflang="ru" href="https://www.baraban16.ru/" />
   <link rel="alternate" hreflang="ru-ru" href="https://www.baraban16.ru/" />
   <link rel="alternate" href="https://www.baraban16.ru/" hreflang="x-default" />
-  <link rel="amphtml" href="blocks/b-place-development/b-place-development.html">
+  <!-- <link rel="amphtml" href="blocks/b-place-development/b-place-development.html"> -->
 
   <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -66,6 +101,22 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
   <?php include("analyticstracking2018.php") ?>
+
+  <script>
+    //This is the "Offline page" service worker
+
+    //Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
+    if (navigator.serviceWorker.controller) {
+      console.log('[PWA Builder] active service worker found, no need to register')
+    } else {
+      //Register the ServiceWorker
+      navigator.serviceWorker.register('pwabuilder-sw.js', {
+        scope: './'
+      }).then(function(reg) {
+        console.log('Service worker has been registered for scope:'+ reg.scope);
+      });
+    }
+  </script>
 </head>
   
 <body id="body">
@@ -152,7 +203,7 @@
   <main class="site-content">
 
     <!-- Actually -->
-    <section>
+    <section id="sec_actual">
       <div class="container">
         <div class="raw">
           <h2>
@@ -196,8 +247,75 @@
     </section>
     <!-- END/Section-->
 
+    <!-- Guarantee -->
+    <section id="sec_guarantee">
+      <div class="container">
+        <div class="raw">
+          <h2>
+            Гарантия 12 месяцев     
+          </h2>
+          <p>
+            Мы даем Гарантию 12 месяцев на наши барабаны, а также отдельно на все узлы и агрегаты! Есть дежурный сервисный инженер, который может проконсультировать по телефону относительно работы оборудования. Ресурс двигателя и редуктора рассчитан на 10000 часов работы, в среднем это 10 лет службы, в зависимости от интенсивности эксплуатации, возможно и больше.    
+          </p>
+        </div>
+      </div>
+    </section>  
+    <!-- END/Section-->
+
+    <!-- Eco Clean (Opilki) -->
+    <section id="eco-clean">
+      <div class="container">
+        <div class="raw">
+          <h2>
+            Опилки для чистки меха
+          </h2>
+          <p>
+            Снабжаем круглогодично и в любых количествах, средствами для чистки меха, на основе натуральных буковых опилок. Опилки уже с пропиткой (мягчитель для меха, антистатик для меха, спиртовые и чистящие композиции, концентраты разбавляем дистиллятом) и готовы к работе.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- END/Section-->
+
+    <!-- To see in Moscow -->
+    <section id="to-see">
+      <div class="container">
+        <div class="raw">
+          <h2>
+            Посмотреть в Москве
+          </h2>
+          <p>
+            Если к нам ехать далеко, можете заехать в Москве на пробную чистку, могу обменять Вас контактами с теми, кто давно и с удовольствием пользуется нашим оборудованием. При желании можем связать с мастерами и в других городах. Наше оборудование используют в России, Украине, Казахстане и Белорусии.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- END/Section-->
+
+    <!-- Welcome to chat WhatsApp-->
+    <section id="welcome-chat">
+      <div class="container">
+        <div class="raw">
+          <h2>
+            <a id="chat-furs" href="#chat-furs">Хотите в Чат Меховщиков?</a>
+          </h2>
+          <p>
+            Почти все наши клиенты становятся постоянными и мы работаем вместе много лет, помогая друг другу в разных вопросах.<br/>
+            Этим летом мы специально создали <mark><i>Чат в Ватсапе</i></mark> для меховщиков, чтобы обсуждать насущные вопросы по технологии, персоналу, химии и расходным материалам, обучению, работе с клиентами и другим актуальным вопросам.<br/>
+            В Чате уже мастера из 5 стран. Вы можете позвонить и я добавлю Вас в Чат Меховщиков.
+          </p>
+          <p> Или просто жмите на кнопку ниже.</p>
+          <!-- Chat button -->
+          <div id="goto-chat" class="b-chat__btn wow animated fadeInUp">
+            <a href="http://bitly.com/2zTQIhJ-" class="b-callme__btn b-chat__btn_orange  btn-effect" data-toggle="modal" ping><strong>ОТКРЫТЬ ЧАТ</strong></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END/Section-->    
+
     <!-- -->
-    <section>
+    <section id="sec_about_company">
       <div class="container">
         <div class="raw">
           <h2>
@@ -214,60 +332,8 @@
     </section>
     <!-- END/Section-->
 
-    <!-- Welcome to chat WhatsApp-->
-    <section id="welcome-chat">
-      <div class="container">
-        <div class="raw">
-          <h2>
-            <a id="chat-furs" href="#chat-furs">Хотите в Чат Меховщиков?</a>
-          </h2>
-          <p>
-            Почти все наши клиенты становятся постоянными и мы работаем вместе много лет, помогая друг другу в разных вопросах.<br/>
-            Этим летом мы специально создали Чат в Ватсапе для меховщиков, чтобы обсуждать насущные вопросы по технологии, персоналу, химии и расходным материалам, обучению, работе с клиентами и другим актуальным вопросам.<br/>
-            В Чате уже мастера из 5 стран. Вы можете позвонить и я добавлю Вас в Чат Меховщиков.
-          </p>
-          <p> Или просто жмите на кнопку ниже.</p>
-          <!-- Chat button -->
-          <div id="goto-chat" class="b-chat__btn wow animated fadeInUp">
-            <a href="http://bitly.com/2zTQIhJ-" class="b-callme__btn b-chat__btn_orange  btn-effect" data-toggle="modal" ping><strong>ОТКРЫТЬ ЧАТ</strong></a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- END/Section-->    
-
-    <!-- Guarantee -->
-    <section id="guarantee">
-      <div class="container">
-        <div class="raw">
-          <h2>
-            Гарантия 12 месяцев     
-          </h2>
-          <p>
-            Мы даем Гарантию 12 месяцев на наши барабаны, а также отдельно на все узлы и агрегаты! Есть дежурный сервисный инженер, который может проконсультировать по телефону относительно работы оборудования. Ресурс двигателя и редуктора рассчитан на 10000 часов работы, в среднем это 10 лет службы, в зависимости от интенсивности эксплуатации, возможно и больше.    
-          </p>
-        </div>
-      </div>
-    </section>  
-    <!-- END/Section-->
-
     <!-- section>.container>.raw>h2>p -->
     
-    <!-- Eco Clean (Opilki) -->
-    <section id="eco-clean">
-      <div class="container">
-        <div class="raw">
-          <h2>
-            Опилки для чистки меха
-          </h2>
-          <p>
-            Снабжаем круглогодично и в любых количествах, средствами для чистки меха, на основе натуральных буковых опилок. Опилки уже с пропиткой (мягчитель для меха, антистатик для меха, спиртовые и чистящие композиции, концентраты разбавляем дистиллятом) и готовы к работе.
-          </p>
-        </div>
-      </div>
-    </section>
-    <!-- END/Section-->
-
     <!-- Placement -->
     <section id="place-development">
       <!-- b-place-development -->
@@ -293,21 +359,6 @@
     </section>
     <!-- END/Section-->
 
-    <!-- To see in Moscow -->
-    <section id="to-see">
-      <div class="container">
-        <div class="raw">
-          <h2>
-            Посмотреть в Москве
-          </h2>
-          <p>
-            Если к нам ехать далеко, можете заехать в Москве на пробную чистку, могу обменять Вас контактами с теми, кто давно и с удовольствием пользуется нашим оборудованием. При желании можем связать с мастерами и в других городах. Наше оборудование используют в России, Украине, Казахстане и Белорусии.
-          </p>
-        </div>
-      </div>
-    </section>
-    <!-- END/Section-->
-
     <!-- Payback == Окупаемость -->
     <section id="payback">
       <div class="container">
@@ -316,7 +367,9 @@
             Окупаемость
           </h2>
           <p>
-            Есть масса примеров, когда Оборудование окупалось за 1 сезон, но всё это индивидуально. Оказываем поддержу и консультации по маркетинговым стратегиям и рекламному продвижению, это всегда очень индивидуально и денег за такую помощь мы не берем.          
+            Есть масса примеров, когда Оборудование окупалось за 1 сезон, но всё это индивидуально.<br/>
+            Оказываем поддержу и консультации по маркетинговым стратегиям и рекламному продвижению, <br/>
+            это всегда очень индивидуально и денег за такую помощь мы не берем.          
           </p>
         </div>
       </div>
@@ -324,7 +377,7 @@
     <!-- END/Section-->
 
     <!-- -->
-    <section>
+    <section id="sec_call_to_action">
       <div class="container">
         <div class="raw">
           <p>  Раньше подобное оборудование могли себе позволить лишь единицы. Стоило оно очень дорого, потребляло электричества, как жилой дом, было огромным и весило как грузовик. Сейчас у Вас есть отличная возможность приобрести свой Откатной барабан, буквально по цене мобильного телефона.</p>
@@ -336,8 +389,8 @@
     </section>
     <!-- END/Section-->
 
-    <!-- -->
-    <section>
+    <!-- Director connections -->
+    <section id="sec_director_connections">
       <div class="container">
         <div class="raw col-lg-6 col-md-6">
           <p>Звоните по номеру 8-968-446-49-44,</p>
@@ -557,7 +610,7 @@
         </div>
         
         <div class="footer-content" style="font-size: 8px;">
-          <p>Версия сайта 3.2.2  опубликован: 2018-12-13 <span>13:19</span></p>
+          <p>Версия сайта 3.3.0  опубликован: 2018-12-17 <span>20:34</span></p>
         </div>
         
         <!-- <div id="onlineSupportContainer" style="height:400px; width:100%;"></div> -->
