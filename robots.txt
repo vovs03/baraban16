@@ -43,5 +43,5 @@ Disallow: /test-blocks
 Disallow: /test
 Disallow: /versions
 Disallow: /zip
-Disallow: .htaccess
+Disallow: *.htaccess
 Host: https://www.baraban16.ru
