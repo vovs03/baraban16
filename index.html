@@ -251,7 +251,7 @@
     <!-- Guarantee -->
     <section id="sec_guarantee">
       <div class="container">
-        <div class="raw">
+        <div class="raw col-lg-6">
           <h2>
             Гарантия 12 месяцев     
           </h2>
@@ -266,17 +266,82 @@
     <!-- Eco Clean (Opilki) -->
     <section id="eco-clean">
       <div class="container">
+      	<div class="b-opilki__title">
+      		<h2>
+        		Опилки для чистки меха
+      		</h2>		
+      	</div>
         <div class="raw">
-          <h2>
-            Опилки для чистки меха
-          </h2>
-          <p>
-            Снабжаем круглогодично и в любых количествах, средствами для чистки меха, на основе натуральных буковых опилок. Опилки уже с пропиткой (мягчитель для меха, антистатик для меха, спиртовые и чистящие композиции, концентраты разбавляем дистиллятом) и готовы к работе.
-          </p>
+        	<div class="b-opilki__img col-lg-4">
+        		<figure><img class="img-responsive" src="blocks/b-opilki/b-opilki__img2.jpg" width="400" alt="Опилки пропитанные раствором Eco Clean"></figure>
+        	</div>
+          <div class="b-opilki col-lg-4">
+          	<div class="b-opiliki__decription">
+							<p>
+            		Снабжаем круглогодично и в любых количествах, средствами для чистки меха, на основе натуральных буковых опилок.
+          		</p>
+          		<p>
+          			Опилки уже с пропиткой (мягчитель для меха, антистатик для меха, спиртовые и чистящие композиции, концентраты разбавляем дистиллятом) и готовы к работе.
+          		</p>        	
+          	</div>
+          	<div class="b-opilki__price">
+          		
+          		<ul>
+          			<li>12 кг (41 л)</li>
+          			
+          			<h3>Стоимость: </h3>
+          			<li>1 бочка <mark>6.900 руб.</mark></li>
+          			<li>2 бочки <mark>9.900 руб.</mark></li>
+          			<li>3 бочки <mark>11.900 руб.</mark></li>
+          		</ul>
+          	</div>
+
+          	<div id="call-me-2" class="b-opilki__btn wow animated fadeInUp">
+            	<a href="#opilki-modal" class="b-callme__btn b-callme__btn_green btn-effect" data-toggle="modal" ping>ЗАКАЗАТЬ</a>
+          	</div>
+
+
+						<!-- Modal opilki-zakaz-modal -->
+	          <div id="" class="container">
+	            <div class="raw">
+	              <div id="opilki-modal" class="modal fade b-opliki__modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel3">
+	                <div class="modal-dialog modal-sm" role="document">
+	                  <div class="modal-content">
+	                    <div class="header_modal modal-header">
+	                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	                    </div>
+
+	                    <!-- Form -->
+	                    <form id="opilki-modal-form" action="send.php" method="post">
+	                        <div class="modal-body text-center">
+	                            <h3 class="modal-title" id="myModalLabel3">Заказ<br /> опилок<br></h3>
+	                          <div class="raw">                                            
+	                            <input type="hidden" name="what" value="Заказ опилок с сайта www.baraban16.ru">
+	                            <input type="text" name="name" minlength="2" maxlength="22" required placeholder="Ваше имя" class="input-name form-control form_input">
+	                            <input type="tel" name="phone" minlength="10" id="opilki-phone-callback-02" required placeholder="8(915)123-45-67" class="form-control form_input">
+	                          </div>
+	                        </div>
+	                        <div class="modal-footer">
+	                          <input type="submit" class="b-callme__btn b-callme__btn_green b-callme__btn_small" value="Заказать обратный звонок">
+	                        </div>
+	                    </form>
+	                    <!-- /END Form -->
+		                  </div>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+			      </div>
+			      <!-- /END opilki zakaz-->   
+
+          </div>
         </div>
       </div>
     </section>
     <!-- END/Section-->
+		
+
+
 
     <!-- To see in Moscow -->
     <section id="to-see">
@@ -603,7 +668,7 @@
         
       <div class="b-footer__web-counters">
           <div class="footer-content">
-          <p>&#169; ООО "Протландия", <a href="https://bit.ly/2ln07Ym" ping>www.baraban16.ru</a>, 2016 - 2018</p>
+          <p>&#169; ООО "Протландия", <a href="https://bit.ly/2ln07Ym" ping>www.baraban16.ru</a>, 2016 - 2019</p>
         </div>
 
         <div class="footer-content" style="height: 10px;">
@@ -611,7 +676,7 @@
         </div>
         
         <div class="footer-content" style="font-size: 8px;">
-          <p>Версия сайта 3.3.0  опубликован: 2019-01-12 <span>21:18</span></p>
+          <p>Версия сайта 3.3.1  опубликован: 2019-01-16 <span>20:12</span></p>
         </div>
         
         <!-- <div id="onlineSupportContainer" style="height:400px; width:100%;"></div> -->
