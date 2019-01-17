@@ -67,6 +67,9 @@ Version       : 3.2.0
 
 @import url("../blocks/b-chat/b-chat.css");
 
+@import url("../blocks/b-opilki/b-opilki.css");
+/* 19:47 2019.01.16*/
+
 body {
   background-color: #fff;
   font-family: 'Open Sans', sans-serif;
