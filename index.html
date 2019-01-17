@@ -229,10 +229,16 @@
     <section id="baraban-specifications">
       <div class="container">
         <div class="b-specifications">
-          <div class="raw">
-            <h2>
-              Технические характеристики Барабана СК-6 PRO
-            </h2>
+          <!-- Title -->
+          <div class="b-specifications__title">
+              <h2>
+                Технические характеристики Барабана СК-6 PRO
+              </h2>  
+          </div>
+            <div class="raw b-specifications__body">
+            
+          <!-- Description-->
+          <div class="b-specifications__description col-lg-4">
             <p>
               <ul>
                 <li>Масса 89 килограмм (двое мужчин нормально заносят);</li>
@@ -243,13 +249,82 @@
                 <li>Мощность двигателя 0, 25 кВт;</li>
                 <li>Работает тихо (почти не слышно) и без вибраций;</li>
               </ul>
-            </p>
-          </div>          
+            </p>  
+          </div>
+          <!-- /END Description-->
 
+          <!-- Img -->
+          <div class="b-specifications__img col-lg-4 wow animated fadeInUp">
+            <a href="#specifications-modal" class="wow animated" data-toggle="modal"><figure><img class="img-responsive" src="blocks/b-specifications/__img-1.webp" alt="Заказать откатной барабан СК-6 PRO, Mini"></figure></a>
+          </div>
+
+          <!-- Price -->
+          <div id ="otkatnoi-baraban-stoimost" class="b-specifications__price col-lg-4">
+            <h3><a href="#otkatnoi-baraban-stoimost">Стоимость: </a></h3>
+            <ul>
+              <li>Откатной барабан <br /> <strong>"СК-6 PRO"</strong> <mark>74.000 руб.</mark></li>
+              <li>Откатной барабан <br /> "Mini" <mark>64.000 руб.</mark></li>
+            </ul>
+            
+            <!-- __btn -->
+            <div id="call-me-3" class="specifications__btn b-opilki__btn wow animated fadeInDown">
+              <a href="#specifications-modal" class="b-callme__btn b-callme__btn_green btn-effect" data-toggle="modal" ping>ЗАКАЗАТЬ</a>
+            </div>
+          </div>
+          
         </div>
       </div>
     </section>
     <!-- END/Section-->
+
+    <!-- Modal specifications-modal -->
+    <div id="" class="container">
+      <div class="raw">
+        <div id="specifications-modal" class="modal fade b-specifications__modal"  tabindex="-1" role="dialog" aria-labelledby="mySpecificationsDialogue">
+          <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+              <div class="header_modal modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              </div>
+
+              <!-- Form -->
+              <form id="specifications-modal-form" action="send.php" method="post">
+                <div class="modal-body text-center">
+                  <h3 class="modal-title" id="mySpecificationsDialogue-Zakaz">Заказ<br /> Откатного барабана СК-6 PRO<br></h3>
+                  <div class="raw">                                            
+                    <input type="hidden" name="what" value="Заказ Откатного барбана СК-6 PRO 74.000 руб с сайта www.baraban16.ru">
+                    <input type="text" name="name" minlength="2" maxlength="22" required placeholder="Ваше имя" class="input-name form-control form_input">
+                    <input type="tel" name="phone" minlength="10" id="specifications-phone-callback-02" required placeholder="8(915)123-45-67" class="form-control form_input">
+                  </div>
+                </div>
+                
+                <div class="modal__body">
+                  <div class="">
+                    <p>
+                      Спасибо, что выбрали <br />
+                      модель 2019 года <strong>СК-6 PRO</strong> <br />
+                      стоимостью <mark>74.000 руб.</mark>
+                    </p>
+                    <p>
+                      Мы перезвоним Вам в ближайшее время, уточнив все детали заказа и адрес доставки.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="modal-footer">
+                  <input type="submit" class="b-callme__btn b-callme__btn_green b-callme__btn_small" value="Заказать">
+                </div>
+              </form>
+              <!-- /END Form -->
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /END Modal Specifications zakaz-->  
+
 
     <!-- Guarantee -->
     <section id="sec_guarantee">
@@ -271,13 +346,17 @@
       <div class="container">
       	<div class="b-opilki__title">
       		<h2>
-        		Опилки для чистки меха
+        		<a href="#eco-clean">Опилки для чистки меха</a>
       		</h2>		
       	</div>
         <div class="raw">
+
+          <!-- Img -->
         	<div class="b-opilki__img col-lg-4">
-        		<figure><img class="img-responsive" src="blocks/b-opilki/b-opilki__img2.jpg" width="400" alt="Опилки пропитанные раствором Eco Clean"></figure>
+        		<figure><img class="img-responsive" src="blocks/b-opilki/b-opilki__img2.webp" width="310" alt="Опилки пропитанные раствором Eco Clean"></figure>
         	</div>
+
+          <!-- Description -->
           <div class="b-opilki col-lg-4">
           	<div class="b-opiliki__decription">
 							<p>
@@ -287,12 +366,15 @@
           			Опилки уже с пропиткой (мягчитель для меха, антистатик для меха, спиртовые и чистящие композиции, концентраты разбавляем дистиллятом) и готовы к работе.
           		</p>        	
           	</div>
+
+            <!-- Price -->
           	<div class="b-opilki__price">
-          		
           		<ul>
           			<li>12 кг (41 л)</li>
-          			
-          			<h3>Стоимость: </h3>
+          		</ul>	
+          		
+              <h3>Стоимость: </h3>
+              <ul>
           			<li>1 бочка <mark>6.900 руб.</mark></li>
           			<li>2 бочки <mark>9.900 руб.</mark></li>
           			<li>3 бочки <mark>11.900 руб.</mark></li>
@@ -300,51 +382,52 @@
           	</div>
 
           	<div id="call-me-2" class="b-opilki__btn wow animated fadeInUp">
-            	<a href="#opilki-modal" class="b-callme__btn b-callme__btn_green btn-effect" data-toggle="modal" ping>ЗАКАЗАТЬ</a>
+            	<a href="#opilki-modal" class="b-callme__btn b-callme__btn_orange btn-effect" data-toggle="modal" ping>ЗАКАЗАТЬ</a>
           	</div>
-
-
-						<!-- Modal opilki-zakaz-modal -->
-	          <div id="" class="container">
-	            <div class="raw">
-	              <div id="opilki-modal" class="modal fade b-opliki__modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel3">
-	                <div class="modal-dialog modal-sm" role="document">
-	                  <div class="modal-content">
-	                    <div class="header_modal modal-header">
-	                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	                    </div>
-
-	                    <!-- Form -->
-	                    <form id="opilki-modal-form" action="send.php" method="post">
-	                        <div class="modal-body text-center">
-	                            <h3 class="modal-title" id="myModalLabel3">Заказ<br /> опилок<br></h3>
-	                          <div class="raw">                                            
-	                            <input type="hidden" name="what" value="Заказ опилок с сайта www.baraban16.ru">
-	                            <input type="text" name="name" minlength="2" maxlength="22" required placeholder="Ваше имя" class="input-name form-control form_input">
-	                            <input type="tel" name="phone" minlength="10" id="opilki-phone-callback-02" required placeholder="8(915)123-45-67" class="form-control form_input">
-	                          </div>
-	                        </div>
-	                        <div class="modal-footer">
-	                          <input type="submit" class="b-callme__btn b-callme__btn_green b-callme__btn_small" value="Заказать обратный звонок">
-	                        </div>
-	                    </form>
-	                    <!-- /END Form -->
-		                  </div>
-		                </div>
-		              </div>
-		            </div>
-		          </div>
-			      </div>
-			      <!-- /END opilki zakaz-->   
-
           </div>
+
+          <!-- Demo -->
+          <div class="b-opilki__demo col-lg-4">
+            <figure><img class="img-responsive" src="blocks/b-opilki/b-opilki__img6.webp" width="308" alt="Опилки пропитанные раствором Eco Clean - 1кг 450 рублей" ></figure>
+          </div>
+
         </div>
       </div>
     </section>
     <!-- END/Section-->
-		
 
+    <!-- Modal opilki-zakaz-modal -->
+    <div id="" class="container">
+      <div class="raw">
+        <div id="opilki-modal" class="modal fade b-opliki__modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel3">
+          <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+              <div class="header_modal modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              </div>
 
+              <!-- Form -->
+              <form id="opilki-modal-form" action="send.php" method="post">
+                  <div class="modal-body text-center">
+                      <h3 class="modal-title" id="myModalLabel3_zakaz">Заказ<br /> опилок<br></h3>
+                    <div class="raw">                                            
+                      <input type="hidden" name="what" value="Заказ опилок с сайта www.baraban16.ru">
+                      <input type="text" name="name" minlength="2" maxlength="22" required placeholder="Ваше имя" class="input-name form-control form_input">
+                      <input type="tel" name="phone" minlength="10" id="opilki-phone-callback-02" required placeholder="8(915)123-45-67" class="form-control form_input">
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <input type="submit" class="b-callme__btn b-callme__btn_green b-callme__btn_small" value="Заказать обратный звонок">
+                  </div>
+              </form>
+              <!-- /END Form -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /END opilki zakaz--> 		
 
     <!-- To see in Moscow -->
     <section id="to-see">
@@ -429,6 +512,26 @@
     </section>
     <!-- END/Section-->
 
+    <!-- Call to Action-->
+    <section id="sec_call_to_action">
+      <div class="container">
+        <div class="raw">
+          <h2>Доступность, необходимость или консультация... </h2>
+
+          <div class="col-lg-6">
+            <p>  Раньше подобное оборудование могли себе позволить лишь единицы. Стоило оно очень дорого, потребляло электричества, как жилой дом, было огромным и весило как грузовик. Сейчас у Вас есть отличная возможность приобрести свой Откатной барабан, буквально по цене мобильного телефона.</p>
+            <p id="need-baraban">По сути Откатной барабан нужен каждому, кто работает с Мехом.</p>  
+          </div>
+          
+          <div class="col-lg-6">
+            <p>Если Вы до конца не уверены, нужен он Вам иди нет, можете сделать простой шаг - просто позвоните и задайте свои вопросы, а после консультации решите, нужен он Вам или нет.</p>
+            <p>Не откладывайте на завтра то, что можно сделать сегодня!</p>            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END/Section-->
+
     <!-- Payback == Окупаемость -->
     <section id="payback">
       <div class="container">
@@ -446,32 +549,22 @@
     </section>
     <!-- END/Section-->
 
-    <!-- -->
-    <section id="sec_call_to_action">
-      <div class="container">
-        <div class="raw">
-          <p>  Раньше подобное оборудование могли себе позволить лишь единицы. Стоило оно очень дорого, потребляло электричества, как жилой дом, было огромным и весило как грузовик. Сейчас у Вас есть отличная возможность приобрести свой Откатной барабан, буквально по цене мобильного телефона.</p>
-          <p>По сути Откатной барабан нужен каждому, кто работает с Мехом.</p>
-          <p>Если Вы до конца не уверены, нужен он Вам иди нет, можете сделать простой шаг - просто позвоните и задайте свои вопросы, а после консультации решите, нужен он Вам или нет.</p>
-          <p>Не откладывайте на завтра то, что можно сделать сегодня!</p>
-        </div>
-      </div>
-    </section>
-    <!-- END/Section-->
-
     <!-- Director connections -->
     <section id="sec_director_connections">
       <div class="container">
-        <div class="raw col-lg-6 col-md-6">
-          <p>Звоните по номеру 8-968-446-49-44,</p>
-          <p>Меня зовут Павел и я постараюсь ответить на все Ваши вопросы </p>
-          <p>относительно Откатного барабана. </p>
-          <p>Расскажу Вам всё, что знаю сам.</p>
-        </div>
-        <div class="raw col-lg-6 col-md-6">
-          <p>По номеру 8-968-446-49-44 </p>
-          <p>Вы можете написать мне СМС, </p>
-          <p>или сообщение в Ватсап, Вайбер и Телеграм.</p>
+        <div class="raw">
+          <h2>Звоните по номеру 8-968-446-49-44</h2>          
+          <div class="col-lg-6 col-md-6">
+            <p>Меня зовут Павел и я постараюсь ответить на все Ваши вопросы </p>
+            <p>относительно Откатного барабана. </p>
+            <p>Расскажу Вам всё, что знаю сам.</p>  
+          </div>
+
+          <div class="col-lg-6 col-md-6">
+            <p>По номеру 8-968-446-49-44 </p>
+            <p>Вы можете написать мне СМС, </p>
+            <p>или сообщение в Ватсап, Вайбер и Телеграм.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -494,55 +587,55 @@
               
               <!-- item-1 -->
               <li class="portfolio-item">
-                <img src="blocks/b-portfolio/item1.jpg" class="img-responsive" alt="Откатной барабан СК-6">
+                <img src="blocks/b-portfolio/item1z.webp" class="img-responsive" alt="Откатной барабан СК-6">
                 <figcaption class="mask">
                   <h3>Откатной барабан "СК-6-PRO"</h3>
                   <p></p>
                 </figcaption>
                 <ul class="external">
-                  <li><a class="fancybox" title="Откатной барабан СК-6" data-fancybox-group="works" href="blocks/b-portfolio/item1.jpg"><i class="fa fa-search"></i></a></li>
+                  <li><a class="fancybox" title="Откатной барабан СК-6" data-fancybox-group="works" href="blocks/b-portfolio/item1z.jpg"><i class="fa fa-search"></i></a></li>
                   </ul>
               </li>
         
               <!-- item-2 -->
               <li class="portfolio-item">
-                <img src="blocks/b-portfolio/item2.jpg" class="img-responsive" alt="Откатной барабан СК-6">
+                <img src="blocks/b-portfolio/item2.webp" class="img-responsive" alt="Откатной барабан СК-6">
                 <figcaption class="mask">
                   <h3>Универсальность габаритов откатного барабана "СК-6-PRO"</h3>
                   <p></p>
                 </figcaption>
                 <ul class="external">
                     <li><a class="fancybox" title ="Откатной барабан СК-6" data-fancybox-group="works" href="blocks/b-portfolio/item2.jpg"><i class="fa fa-search"></i></a></li>
-                 </ul>
-                </li>
+                </ul>
+              </li>
           
-                  <!-- item-3 -->
-                <li class="portfolio-item">
-                  <img src="blocks/b-portfolio/item3.jpg"  class="img-responsive"  alt="Откатной барабан СК-6">
-                    <figcaption class="mask">
+              <!-- item-3 -->
+              <li class="portfolio-item">
+                <img src="blocks/b-portfolio/item3.webp"  class="img-responsive"  alt="Откатной барабан СК-6">
+                <figcaption class="mask">
                   <h3>Грузоперевозки транспортными компаниями</h3>
                   <p></p>
                 </figcaption>
-                  <ul class="external">
-                    <li><a class="fancybox" title="Откатной барабан СК- 6" data-fancybox-group="works" href=" blocks/b-portfolio/item3.jpg"><i class="fa fa-search"></i></a></li>
+                <ul class="external">
+                  <li><a class="fancybox" title="Откатной барабан СК- 6" data-fancybox-group="works" href=" blocks/b-portfolio/item3.jpg"><i class="fa fa-search"></i></a></li>
                 </ul>
               </li>             
 
                 <!-- item-4 -->
                 <li class="portfolio-item">
                   <img src="blocks/b-portfolio/item4.jpg" class="img-responsive" alt="Откатной   барабан СК-6">
-                    <figcaption class="mask">
-                      <h3>Производство Откатных барабанов серии "СК-6-PRO"</h3>
-                  <p></p>
+                  <figcaption class="mask">
+                    <h3>Производство Откатных барабанов серии "СК-6-PRO"</h3>
+                    <p></p>
                   </figcaption>
                   <ul class="external">
-                    <li><a class="fancybox" title="Откатной барабан СК-6" data-fancybox-grou  p="works" href="blocks/b-portfolio/item4.jpg"><i   class="fa    fa-search"></i></a></li>
+                    <li><a class="fancybox" title="Откатной барабан СК-6" data-fancybox-group="works" href="blocks/b-portfolio/item4.jpg"><i class="fa fa-search"></i></a></li>
                   </ul>
                 </li>
 
               <!-- item-5 -->
               <li class="portfolio-item">
-                  <img src="blocks/b-portfolio/item8.jpg" class="img-responsive" alt="Откатной барабан СК-6">
+                  <img src="blocks/b-portfolio/item8.webp" class="img-responsive" alt="Откатной барабан СК-6">
                 <figcaption class="mask">
                     <h3>Модернизация   Откатных барабанов серии "СК-6-PRO"</h3>
                     <p></p>
@@ -554,7 +647,7 @@
                             
               <!-- item-6 -->
               <li class="portfolio-item">
-                <img src="blocks/b-portfolio/item9.jpg" class="img-responsive" alt="Откатной барабан СК-6">
+                <img src="blocks/b-portfolio/item9.webp" class="img-responsive" alt="Откатной барабан СК-6">
                 <figcaption class="mask">
                   <h3>Директор ООО"Протландия"</h3>
                   <p></p>
@@ -566,7 +659,7 @@
 
               <!-- item-7 -->
               <li class="portfolio-item">
-                <img src="blocks/b-portfolio/item7.jpg" class="img-responsive" alt="Откатной барабан СК-6">
+                <img src="blocks/b-portfolio/item7.webp" class="img-responsive" alt="Откатной барабан СК-6">
                 <figcaption class="mask">
                   <h3>"До" и "После" - результат чистки в откатном барабане</h3>
                   <p></p>
@@ -590,7 +683,7 @@
 
               <!-- item-9 -->
               <li class="portfolio-item">
-                <img src="blocks/b-portfolio/item6.jpg" class="img-responsive" alt="Откатной барабан СК-6">
+                <img src="blocks/b-portfolio/item6.webp" class="img-responsive" alt="Откатной барабан СК-6">
                 <figcaption class="mask">
                   <h3>"До" и "После" - результат чистки в откатном барабане</h3>
                   <p></p>
@@ -641,9 +734,9 @@
           </div>
 
           <div id="social-links">
-            <p class="wow animated fadeInUp"><a target="_blank" ping rel="me" href="http://bit.ly/2Ct79QH"> <i class="fab fa-youtube"></i> Наши видео на Ютуб</a></p>
-            <p class="wow animated fadeInUp"><a target="_blank" ping rel="me" href="http://bit.ly/2F9MUud"> <i class="fab fa-vk"></i> мы Вконтакте</a></p>
-            <p class="wow animated fadeInUp"><a target="_blank" ping rel="me" href="http://bit.ly/2EQEs5k"><i class="fab fa-instagram"></i> наш Инстаграм</a></p>                        
+            <p class="wow animated fadeInUp"><a target="_blank" ping rel="noreferrer" href="http://bitly.com/2Ct79QH"> <i class="fab fa-youtube"></i> Наши видео на Ютуб</a></p>
+            <p class="wow animated fadeInUp"><a target="_blank" ping rel="noreferrer" href="http://bitly.com/2F9MUud"> <i class="fab fa-vk"></i> мы Вконтакте</a></p>
+            <p class="wow animated fadeInUp"><a target="_blank" ping rel="noreferrer" href="http://bitly.com/2EQEs5k"><i class="fab fa-instagram"></i> наш Инстаграм</a></p>                        
           </div>
         </div>
       </div> 
@@ -672,7 +765,7 @@
         
       <div class="b-footer__web-counters">
           <div class="footer-content">
-          <p>&#169; ООО "Протландия", <a href="https://bit.ly/2ln07Ym" ping>www.baraban16.ru</a>, 2016 - 2019</p>
+          <p>&#169; ООО "Протландия", <a href="https://bitly.com/2ln07Ym" ping>www.baraban16.ru</a>, 2016 - 2019</p>
         </div>
 
         <div class="footer-content" style="height: 10px;">
@@ -680,7 +773,7 @@
         </div>
         
         <div class="footer-content" style="font-size: 8px;">
-          <p>Версия сайта 3.3.2  опубликован: 2019-01-17 <span>12:35</span></p>
+          <p>Версия сайта 3.3.2  опубликован: 2019-01-17 <span>22:08</span></p>
         </div>
         
         <!-- <div id="onlineSupportContainer" style="height:400px; width:100%;"></div> -->
@@ -690,9 +783,9 @@
 
     <!-- Essential jQuery Plugins -->
     <!-- Main jQuery -->
-        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/jquery-1.12.4.min.js"></script>
     <!-- Twitter Bootstrap -->
-        <script src="js/bootstrap.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Single Page Nav -->
         <script src="js/jquery.singlePageNav.min.js"></script>
     <!-- jquery.fancybox.pack -->

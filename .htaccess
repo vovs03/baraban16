@@ -20,3 +20,18 @@ AddType 'text/html; charset=utf-8' .html .htm .shtml
 #RewriteCond %{HTTPS} off
 #RewriteCond %{HTTP:X-Forwarded-Proto} !https
 #RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# 2019-01-17
+# сжатие text, html, javascript, css, xml:
+<ifModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/css text/javascript application/javascript application/x-javascript
+</ifModule>
+ 
+# кеш браузера
+<ifModule mod_expires.c>
+ExpiresActive On
+
+# Включаем кэширование css, javascript и текстовых файлоф на одну неделю   604800 seconds
+ExpiresByType text/css "access plus 60 seconds"
+
+</ifModule>
