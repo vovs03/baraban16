@@ -4,9 +4,9 @@ Author   	  : Vladimir Pavlychev ;
 E-mail   	  : www@osarts ;					
 Create   	  : 2016.11.28 ;                  
 Time     	  : 11:10 ; 						
-Modified 	  : 2016.11.28					
-Modified Time : 11:03 ; 						
-Version  	  : 1.0.0							*/
+Modified 	  : 2019.01.17					
+Modified Time : 17:53 ; 						
+Version  	  : 3.3.2							*/
 
 .b-opilki{
 	margin-top: 14px;
@@ -22,8 +22,12 @@ Version  	  : 1.0.0							*/
 
 .b-opilki__img{
 	margin-top: 30px;
-	margin-left: 25px;
-	max-width: 400px;
+	max-width: 320px;
+
+    padding-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+
 }
 
 .b-opilki__price {
@@ -34,7 +38,11 @@ Version  	  : 1.0.0							*/
 	margin-top: 26px;
 	display: inline-block;
 	padding-left: 60px;
+}
 
+.b-opilki__demo {
+	margin-top: 30px;
+	width: 350px;
 }
 
 .b-opilki__opis{
