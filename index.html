@@ -13,7 +13,7 @@
   <!-- Meta Description -->
   <meta name="description" content="Откатной барабан для меха и шкурок: чистки, откатки, отминки, протряхивания. Звоните 8-968-446-49-44. Работаем во всех регионах РФ.">
   <meta name="keywords" content="Откатной барабан, чистка меха, опилки для меха, протряхивание меховых изделий, меховые изделия, шубы, ателье, буковые опилки, виды меха, выделка шкурок, скорняк">
-  <meta name="author" content="(c) 2017-2018 Vladimir Pavlychev https://www.osarts.ru">
+  <meta name="author" content="(c) 2017-2019 Vladimir Pavlychev https://www.osarts.ru">
   <meta name="robots" content="INDEX, FOLLOW">
   <meta name="robots" content="noodp">
   <meta name="expires" content="Mon, 11 Nov 2019 00:00:00 GMT">
@@ -254,8 +254,8 @@
           <!-- /END Description-->
 
           <!-- Img -->
-          <div class="b-specifications__img col-lg-4 wow animated fadeInUp">
-            <a href="#specifications-modal" class="wow animated" data-toggle="modal"><figure><img class="img-responsive" src="blocks/b-specifications/__img-1.webp" alt="Заказать откатной барабан СК-6 PRO, Mini"></figure></a>
+          <div id="SpecImg" class="b-specifications__img col-lg-4 wow animated fadeInUp">
+            <a href="#SpecModal" class="wow animated" data-toggle="modal"><figure><img class="img-responsive" src="blocks/b-specifications/__img-1.webp" alt="Заказать откатной барабан СК-6 PRO, Mini"></figure></a>
           </div>
 
           <!-- Price -->
@@ -267,8 +267,8 @@
             </ul>
             
             <!-- __btn -->
-            <div id="call-me-3" class="specifications__btn b-opilki__btn wow animated fadeInDown">
-              <a href="#specifications-modal" class="b-callme__btn b-callme__btn_green btn-effect" data-toggle="modal" ping>ЗАКАЗАТЬ</a>
+            <div id="SpecImgBtn" class="specifications__btn b-opilki__btn wow animated fadeInDown">
+              <a href="#SpecModal" class="b-callme__btn b-callme__btn_green btn-effect" data-toggle="modal" ping>ЗАКАЗАТЬ</a>
             </div>
           </div>
           
@@ -280,7 +280,7 @@
     <!-- Modal specifications-modal -->
     <div id="" class="container">
       <div class="raw">
-        <div id="specifications-modal" class="modal fade b-specifications__modal"  tabindex="-1" role="dialog" aria-labelledby="mySpecificationsDialogue">
+        <div id="SpecModal" class="modal fade b-specifications__modal"  tabindex="-1" role="dialog" aria-labelledby="mySpecificationsDialogue">
           <div class="modal-dialog modal-sm" role="document">
             <div class="modal-content">
               <div class="header_modal modal-header">
@@ -311,7 +311,7 @@
                   </div>
                 </div>
 
-                <div class="modal-footer">
+                <div id="SpecModalFormBtn" class="modal-footer">
                   <input type="submit" class="b-callme__btn b-callme__btn_green b-callme__btn_small" value="Заказать">
                 </div>
               </form>
@@ -381,8 +381,8 @@
           		</ul>
           	</div>
 
-          	<div id="call-me-2" class="b-opilki__btn wow animated fadeInUp">
-            	<a href="#opilki-modal" class="b-callme__btn b-callme__btn_orange btn-effect" data-toggle="modal" ping>ЗАКАЗАТЬ</a>
+          	<div id="OpilkiBtn" class="b-opilki__btn wow animated fadeInUp">
+            	<a href="#OpilkiModal" class="b-callme__btn b-callme__btn_orange btn-effect" data-toggle="modal" ping>ЗАКАЗАТЬ</a>
           	</div>
           </div>
 
@@ -399,7 +399,7 @@
     <!-- Modal opilki-zakaz-modal -->
     <div id="" class="container">
       <div class="raw">
-        <div id="opilki-modal" class="modal fade b-opliki__modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel3">
+        <div id="OpilkiModal" class="modal fade b-opliki__modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel3">
           <div class="modal-dialog modal-sm" role="document">
             <div class="modal-content">
               <div class="header_modal modal-header">
@@ -416,7 +416,7 @@
                       <input type="tel" name="phone" minlength="10" id="opilki-phone-callback-02" required placeholder="8(915)123-45-67" class="form-control form_input">
                     </div>
                   </div>
-                  <div class="modal-footer">
+                  <div id="OpilkiModalFormBtn" class="modal-footer">
                     <input type="submit" class="b-callme__btn b-callme__btn_green b-callme__btn_small" value="Заказать обратный звонок">
                   </div>
               </form>
@@ -773,7 +773,7 @@
         </div>
         
         <div class="footer-content" style="font-size: 8px;">
-          <p>Версия сайта 3.3.3  опубликован: 2019-01-18 <span>09:42</span></p>
+          <p>Версия сайта 3.3.4  опубликован: 2019-01-18 <span>15:14</span></p>
         </div>
         
         <!-- <div id="onlineSupportContainer" style="height:400px; width:100%;"></div> -->
