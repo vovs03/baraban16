@@ -35,3 +35,19 @@ ExpiresActive On
 ExpiresByType text/css "access plus 60 seconds"
 
 </ifModule>
+
+# Black list ip-address
+#<Limit GET POST>
+#order allow, deny
+allow from all
+
+allow from 185.52.69.102
+
+deny from 185.130.207.239
+deny from 51.38.162.236
+deny from 217.118.79.36
+
+# 2019-01-21
+deny from 142.93.176.133
+
+#</Limit>
