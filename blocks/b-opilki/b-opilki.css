@@ -8,25 +8,23 @@ Modified 	  : 2019.01.17
 Modified Time : 17:53 ; 						
 Version  	  : 3.3.2							*/
 
-.b-opilki{
+.b-opilki {
 	margin-top: 14px;
 }
 
-.b-opilki__title {
-
-}
+.b-opilki__title {}
 
 .b-opilki__preview {
 	max-width: 1200px;
 }
 
-.b-opilki__img{
+.b-opilki__img {
 	margin-top: 30px;
 	max-width: 320px;
 
-    padding-right: 0px;
-    margin-left: 0px;
-    padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 16px;
+	padding-left: 0px;
 
 }
 
@@ -45,11 +43,11 @@ Version  	  : 3.3.2							*/
 	width: 350px;
 }
 
-.b-opilki__opis{
+.b-opilki__opis {
 	margin-top: 20px;
 }
 
-.b-opilki__rubl{
+.b-opilki__rubl {
 	margin-left: 135px;
 }
 

@@ -70,6 +70,10 @@ Version       : 3.2.0
 @import url("../blocks/b-opilki/b-opilki.css");
 /* 19:47 2019.01.16*/
 
+@import url("../blocks/b-ym-widjet/b-ym-widjet.css");
+/* 21:31 2019.04.02*/
+
+
 body {
   background-color: #fff;
   font-family: 'Open Sans', sans-serif;
@@ -346,6 +350,7 @@ main>section {
   0% {
     box-shadow: inset 0px 0px 0px #2E2E2E;
   }
+
   100% {
     box-shadow: inset 60px 0px 0px #2E2E2E;
   }
@@ -355,6 +360,7 @@ main>section {
   0% {
     box-shadow: inset 0px 0px 0px #2E2E2E;
   }
+
   100% {
     box-shadow: inset 60px 0px 0px #2E2E2E;
   }
@@ -364,6 +370,7 @@ main>section {
   0% {
     box-shadow: inset 0px 0px 0px #2E2E2E;
   }
+
   100% {
     box-shadow: inset 60px 0px 0px #2E2E2E;
   }
@@ -1545,11 +1552,13 @@ textarea.form-control {
 ==============================================================*/
 
 @media (min-width: 980px) and (max-width: 1150px) {
+
   /*header-1st*/
   #header-1st {
     padding-top: 30px;
     padding-bottom: 0px;
   }
+
   /* Header*/
   #header-phones {
     margin-left: 0px;
@@ -1557,14 +1566,17 @@ textarea.form-control {
     /*width: 375px;*/
     left: 0px;
   }
+
   /*phones-font*/
   .phones-font {
     font-size: 20px;
     letter-spacing: 0.02em;
   }
+
   .space-heigth {
     heigth
   }
+
   #baraban-box {
     border: 4px solid #FF7C00;
     border-width: solid;
@@ -1578,6 +1590,7 @@ textarea.form-control {
     padding-left: 15px;
     padding-right: 15px;
   }
+
   /*about
     #about .welcome-block img {
         margin-bottom: 30px;
@@ -1600,45 +1613,57 @@ textarea.form-control {
 ==============================================================*/
 
 @media (min-width: 768px) and (max-width: 979px) {
+
   /*Carousel*/
   #testCarousel {
     width: 600px;
   }
+
   /* home slider  */
   .caption-content h2 {
     font-size: 40px;
   }
+
   .caption-content p {
     font-size: 25px;
   }
+
   .caption-content strong {
     font-size: 45px;
   }
+
   /* about */
   .recent-works {
     margin-bottom: 50px;
   }
+
   .service-item {
     margin-bottom: 50px;
   }
+
   /* portfolio */
   .portfolio-item {
     width: 48%;
   }
+
   /* testimonial */
   .testimonial-item {
     width: 100%;
   }
+
   .testimonial-item {
     width: 80%;
   }
+
   .testimonial-item>div:after {
     bottom: -35px;
   }
+
   /* price */
   .price-table {
     margin-bottom: 50px;
   }
+
   /* contact form */
   .contact-form {
     margin-bottom: 50px;
@@ -1653,28 +1678,35 @@ textarea.form-control {
   body {
     font-size: 14px;
   }
+
   .parallax {
     background-position: centet tip !important;
   }
+
   .sec-title h2 {
     font-size: 25px;
   }
+
   .sec-title h2:after {
     left: 30%;
   }
+
   /*navigation*/
   .navbar-inverse .navbar-toggle {
     border-color: #fff;
   }
+
   .navbar-inverse .navbar-toggle:hover,
   .navbar-inverse .navbar-toggle:focus {
     background-color: transparent;
   }
+
   #display-1 {
     /* height: 1050px; */
     padding-top: 0px;
     padding-bottom: 0px;
   }
+
   /*baraban-box*/
   #baraban-box {
     border: 2px solid #FF7C00;
@@ -1689,99 +1721,124 @@ textarea.form-control {
     padding-left: 5px;
     padding-right: 5px;
   }
+
   /*Carousel*/
   #testCarousel {
     width: 300px;
   }
+
   #downloads-free {
     height: 600px;
   }
+
   /* slider */
   .caption-content h2 {
     font-size: 18px;
   }
+
   .caption-content>span {
     font-size: 16px;
     margin-bottom: 20px;
   }
+
   .caption-content p {
     font-size: 16px;
     margin-bottom: 30px;
   }
+
   .caption-content strong {
     font-size: 22px;
   }
+
   /* about */
   .recent-works {
     margin-bottom: 85px;
   }
+
   #about h3 {
     font-size: 18px;
     margin: 0 0 35px !important;
   }
+
   #about .owl-buttons {
     margin-top: 20px;
   }
+
   #about .message-body {
     margin-bottom: 45px;
   }
+
   #about .welcome-block img {
     margin: 0 25px 15px 0;
   }
+
   /* service */
   .service-item {
     width: 100%;
   }
+
   /*portfolio*/
   .portfolio-item {
     margin: 0 auto 10px;
     font-size: 14px;
     width: 280px;
   }
+
   figcaption.mask {
     bottom: -107px;
     color: #fff;
     padding: 15px;
   }
+
   /* lightbox */
   .fancybox-title h3 {
     font-size: 20px;
   }
+
   .fancybox-title p {
     font-size: 14px;
   }
+
   /* testimonial */
   .testimonial-item {
     width: 95%;
   }
+
   .testimonial-item>div:before,
   .testimonial-item>div:after {
     background-image: none;
   }
+
   .testimonial-item>div>span {
     margin: 30px 0 20px;
   }
+
   /* price */
   .price-table {
     margin-bottom: 50px;
   }
+
   /* follow us */
   .social-button li:nth-child(2) {
     margin: 0 25px;
   }
+
   .social-button li a {
     height: 65px;
     line-height: 71px;
     width: 65px;
   }
+
   /* contact form */
   .contact-form {
     margin-bottom: 50px;
   }
+
   /* footer */
   .footer-content {
     width: 100%;
   }
+
   .footer-social ul li {
     margin: 0 7px;
   }
@@ -1795,22 +1852,26 @@ textarea.form-control {
   .sec-title h2:after {
     left: 38%;
   }
+
   /*Header*/
   #header-1st {
     padding-top: 5px;
     padding-bottom: 20px;
   }
+
   /*Sells 65 000*/
   #baraban-box {
     padding-bottom: 35px;
     padding-left: 0px;
     padding-right: 0px;
   }
+
   .border {
     border: 6px solid #FF4900;
     border-top-width: 6px;
     border-bottom-width: 6px;
   }
+
   #price-sells {
     margin-top: 15px;
     font-weight: 900;
@@ -1818,6 +1879,7 @@ textarea.form-control {
     font-size: 34px;
     letter-spacing: 0.085em
   }
+
   #k65 {
     margin-top: 15px;
     font-weight: 900;
@@ -1825,72 +1887,90 @@ textarea.form-control {
     font-size: 34px;
     letter-spacing: 0.085em
   }
+
   /*Economy*/
   #description__3 {
     margin-top: 10px;
     margin-bottom: 15px;
   }
+
   #callback {
     padding-top: 25px;
   }
+
   #description strong {
     text-transform: uppercase;
     font-size: 20px;
   }
+
   #description__4 strong {
     text-transform: uppercase;
     font-size: 20px;
   }
+
   /* home slider */
   .caption-content h2 {
     font-size: 35px;
   }
+
   .caption-content p {
     font-size: 25px;
   }
+
   .caption-content strong {
     font-size: 35px;
   }
+
   /*about*/
   #about .welcome-block h3 {
     margin: 0 0 35px;
   }
+
   /* service */
   .service-item {
     margin: 0 auto 50px;
     width: 55%;
   }
+
   /* portfolio */
   .portfolio-item {
     width: 48%;
   }
+
   figcaption.mask {
     bottom: -132px;
   }
+
   /* testimonial */
   .testimonial-item {
     width: 80%;
   }
+
   .testimonial-item>div:before {
     bottom: 160px;
   }
+
   /* social */
   .social-button li:nth-child(2) {
     margin: 0 50px;
   }
+
   .social-button li a {
     height: 90px;
     line-height: 96px;
     width: 90px;
   }
+
   /* price */
   .price-table {
     margin-bottom: 50px;
   }
+
   /* contact form */
   .contact-form {
     margin-bottom: 50px;
   }
+
   /* footer */
   .footer-content {
     width: 380px;
@@ -1946,10 +2026,12 @@ textarea.form-control {
     height: 29px;
     width: 15px;
   }
+
   50% {
     height: 8px;
     width: 39px;
   }
+
   100% {
     left: 229px;
     height: 29px;
@@ -1963,10 +2045,12 @@ textarea.form-control {
     height: 29px;
     width: 15px;
   }
+
   50% {
     height: 8px;
     width: 39px;
   }
+
   100% {
     left: 229px;
     height: 29px;
@@ -1980,10 +2064,12 @@ textarea.form-control {
     height: 29px;
     width: 15px;
   }
+
   50% {
     height: 8px;
     width: 39px;
   }
+
   100% {
     left: 229px;
     height: 29px;
@@ -1997,10 +2083,12 @@ textarea.form-control {
     height: 29px;
     width: 15px;
   }
+
   50% {
     height: 8px;
     width: 39px;
   }
+
   100% {
     left: 229px;
     height: 29px;
@@ -2014,10 +2102,12 @@ textarea.form-control {
     height: 29px;
     width: 15px;
   }
+
   50% {
     height: 8px;
     width: 39px;
   }
+
   100% {
     left: 229px;
     height: 29px;
