@@ -11,10 +11,6 @@
     <title>Откатные барабаны для меха и чистящее средства "Eco clean"</title>   
 
   <!-- Meta Description -->
-  <meta property="og:image" content="https://www.baraban16.ru/blocks/b-portfolio/item8.jpg">
-  <meta property="og:image:width" content="585">
-  <meta property="og:image:height" content="315">
-  
   <meta name="description" content="Откатной барабан для меха и шкурок: чистки, откатки, отминки, протряхивания. Звоните 8-968-446-49-44. Работаем во всех регионах РФ.">
   <meta name="keywords" content="Откатной барабан, чистка меха, опилки для меха, протряхивание меховых изделий, меховые изделия, шубы, ателье, буковые опилки, виды меха, выделка шкурок, скорняк">
   <meta name="author" content="(c) 2017-2019 Vladimir Pavlychev https://www.osarts.ru">
@@ -267,7 +263,7 @@
             <h3><a href="#otkatnoi-baraban-stoimost">Стоимость: </a></h3>
             <ul>
               <li>Откатной барабан <br /> <strong>"СК-6 PRO"</strong> <mark>74.000 руб.</mark></li>
-              <li>Откатной барабан <br /> "Mini" <mark>74.000 руб.</mark></li>
+              <li>Откатной барабан <br /> "Mini" <mark>64.000 руб.</mark></li>
             </ul>
             
             <!-- __btn -->
@@ -286,17 +282,16 @@
       <div class="container">
         <div class="raw">
           <div class="col-lg-6">
-            <figure><img class="img-responsive" src="./blocks/b-card/__img-01_new.png" alt="Когда Вам нужен барабан? Отправка от 5 до 60 дней" /></figure>
+            <figure><img src="./blocks/b-card/__img-01_new.png" alt="Когда Вам нужен барабан? Отправка от 5 до 60 дней" /></figure>
           </div>
 
-          <div class="col-lg-6 img-responsive">
-            <figure><img class="img-responsive" src="./blocks/b-card/__img-02.jpg" alt="Когда Вам нужен барабан? Отправка от 5 до 60 дней" /></figure>
+          <div class="col-lg-6">
+            <figure><img src="./blocks/b-card/__img-02.jpg" alt="Когда Вам нужен барабан? Отправка от 5 до 60 дней" /></figure>
           </div>
         </div>
       </div>
     </section>
     <!-- END/ b-card -->
-
     <!-- Modal specifications-modal -->
     <div id="" class="container">
       <div class="raw">
@@ -373,7 +368,7 @@
 
           <!-- Img -->
         	<div class="b-opilki__img col-lg-4">
-        		<figure><img class="img-responsive" src="blocks/b-opilki/b-opilki__img2.webp" width="300" alt="Опилки пропитанные раствором Eco Clean"></figure>
+        		<figure><img class="img-responsive" src="blocks/b-opilki/b-opilki__img2.webp" width="310" alt="Опилки пропитанные раствором Eco Clean"></figure>
         	</div>
 
           <!-- Description -->
@@ -392,60 +387,29 @@
           		<ul>
           			<li>12 кг (41 л)</li>
           		</ul>	
+          		
+              <h3>Стоимость: </h3>
+              <ul>
+          			<li>1 бочка <mark>7.500 руб.</mark></li>
+          			<li>2 бочки <mark>12.500 руб.</mark></li>
+          			<li>3 бочки <mark>16.500 руб.</mark></li>
+          		</ul>
           	</div>
 
-            <!--
           	<div id="OpilkiBtn" class="b-opilki__btn wow animated fadeInUp">
             	<a href="#OpilkiModal" class="b-callme__btn b-callme__btn_orange btn-effect" data-toggle="modal" ping>ЗАКАЗАТЬ</a>
-          	</div> -->
+          	</div>
           </div>
-            
 
-          <!-- Yandex-money-widjet -->
-          <div class="b-ym-widjet col-lg-4">
-            <div class="">
-              <div class="">
-                <iframe src="https://money.yandex.ru/quickpay/shop-widget?writer=seller&targets=%D0%9E%D0%BF%D0%BB%D0%B0%D1%82%D0%B0%20%D0%B1%D0%BE%D1%87%D0%BA%D0%B8%20%D0%BE%D0%BF%D0%B8%D0%BB%D0%BE%D0%BA%20(12%20%D0%BA%D0%B3%2C%2041%20%D0%BB)&targets-hint=&default-sum=7000&button-text=11&fio=on&phone=on&comment=on&mail=on&address=on&hint=%D0%9F%D1%80%D0%B8%20%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D0%B5%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20-%20%D1%81%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20500%20%D1%80%D1%83%D0%B1.&successURL=https%3A%2F%2Fwww.baraban16.ru%2F%3Foplata%26pay%3Dsuccess&quickpay=shop&account=410012964111193" width="100%" height="313" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
-              </div>
-            </div>
+          <!-- Demo -->
+          <div class="b-opilki__demo col-lg-4">
+            <figure><img class="img-responsive" src="blocks/b-opilki/b-opilki__img6.webp" width="308" alt="Опилки пропитанные раствором Eco Clean - 1кг 450 рублей" ></figure>
           </div>
-          <!-- /END Yandex-money-widjet -->
-
-
 
         </div>
       </div>
     </section>
     <!-- END/Section-->
-
-    <!-- Opilki-june-event -->
-    <div id="opilki-event" class="container"> 
-      <div class="raw">
-          <div class="b-opilki__header">
-            <h2><a id="opilki-event__header" href="#opilki-event">Опилки для чистки меха, концентрат и пропитка</a></h2>
-          </div>
-          
-          <div class="b-opilki__event col-lg-4">
-            <figure><img class="img-responsive" src="blocks/b-opilki/b-opilki-event__pic1.jpg" width="308" alt="Опилки пропитанные раствором Eco Clean - 1кг 450 рублей" ></figure>
-          </div>
-          <div class="b-opilki__event col-lg-4">
-            <figure><img class="img-responsive" src="blocks/b-opilki/b-opilki-event__pic2.jpg" width="308" alt="Опилки пропитанные раствором Eco Clean - 1кг 450 рублей" ></figure>
-          </div>
-    
-          <!-- Demo -->
-          <div id="" class="container">
-            <div class="raw">
-              <div class="b-opilki__demo col-lg-4">
-                <figure><img class="img-responsive" src="blocks/b-opilki/b-opilki__img6.webp" width="308" alt="Опилки пропитанные раствором Eco Clean - 1кг 450 рублей" ></figure>
-              </div>
-            </div>
-          </div>
-
-
-      </div>
-    </div>
-    <!-- END/Opilki-june-event -->
-
 
     <!-- Modal opilki-zakaz-modal -->
     <div id="" class="container">
@@ -824,7 +788,7 @@
         </div>
         
         <div class="footer-content" style="font-size: 8px;">
-          <p>Версия сайта 3.4.2  опубликован: 2019-06-18 <span>20:45</span></p>
+          <p>Версия сайта 3.3.7  опубликован: 2019-03-27 <span>17:05</span></p>
         </div>
         
         <!-- <div id="onlineSupportContainer" style="height:400px; width:100%;"></div> -->
