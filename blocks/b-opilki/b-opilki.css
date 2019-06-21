@@ -45,6 +45,14 @@ Version  	  : 3.3.2							*/
 	width: 350px;
 }
 
+.b-opilki__event {
+	margin-top: 30px;
+}
+
+.b-opilki__header {
+	margin-top: 60px;
+}
+
 .b-opilki__opis{
 	margin-top: 20px;
 }
