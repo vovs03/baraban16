@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.4.3] 2019-06-21  
+
+- [x] Deleted Rassrochka (Card-green)
+  - ![ Deleted rassrochka fix_before](https://user-images.githubusercontent.com/21124057/59933235-ba472f80-9451-11e9-964e-416bdcc23a7e.png)
+
 ---
 
 ## [3.4.1] 2019-04-18  
