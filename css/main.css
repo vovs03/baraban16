@@ -73,6 +73,9 @@ Version       : 3.3.2
 @import url("../blocks/b-specifications/b-specifications.css");
 /* 12:44 2019.01.17*/
 
+@import url("../blocks/b-card/b-card.css");
+/* 16:48 2019.06.25*/
+
 body {
   background-color: #fff;
   font-family: 'Open Sans', sans-serif;
