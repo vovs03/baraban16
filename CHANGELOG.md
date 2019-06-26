@@ -1,6 +1,12 @@
 # Changelog
 
-## [3.5.0.] 2019-06-25 15:53 - 17:02
+## [3.5.1] 2019-06-26 23:15
+
+- PWA : `/manifest.json` > Changed ::start-url
+- was: `  "start_url"       : "/?utm_source=baraban16.ru&utm_medium=pwa",`
+- upd:   "start_url"       : "/",
+
+## [3.5.0] 2019-06-25 15:53 - 17:02
 
 1. PRICE - TEXT SK-6PRO & MINI Was deleted Issue #120 .1
 2. -MODAL WINDOW- Was deleted Issue #120 .2
