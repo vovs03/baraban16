@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.0.2] 2019-11-01 
+`14:40 - xxxx`
+
+**Fix:**
+
+- [x] :recycle: удалён блок - `b-specifications`
+
 ## [4.0.1] 2019-10-31 
 `19:40 - 19:55`
 
@@ -11,8 +18,8 @@
 
 - Добавить Фото
 - Добавить Лонг-рид (по абзацам)
-- ВЫчистить ООО "Протландия"
-    - `Входящий файл` :label: `baraban16/01_incoming/doc/Otkatnye-barabany-dlya-chistki-meha_r2.docx`
+- Вычистить ООО "Протландия"
+  - `Входящий файл` :label: `baraban16/01_incoming/doc/Otkatnye-barabany-dlya-chistki-meha_r2.docx`
 - `16.32 - 18.00`
 
 ## [3.5.1] 2019-06-26 23:15
