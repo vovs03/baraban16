@@ -1,10 +1,25 @@
 # Changelog
 
+## [4.0.1] 2019-10-31 
+`19:40 - 19:55`
+
+- Fix: немного переносов строк добавлено (:warning: Нет параграфов, блоков, подзаголовков, )
+- :question: М.б. нужно картинки разрядить в тексте? (структура)
+
+## [4.0.0] 2019-10-31 
+`16:32`
+
+- Добавить Фото
+- Добавить Лонг-рид (по абзацам)
+- ВЫчистить ООО "Протландия"
+    - `Входящий файл` :label: `baraban16/01_incoming/doc/Otkatnye-barabany-dlya-chistki-meha_r2.docx`
+- `16.32 - 18.00`
+
 ## [3.5.1] 2019-06-26 23:15
 
 - PWA : `/manifest.json` > Changed ::start-url
-- was: `  "start_url"       : "/?utm_source=baraban16.ru&utm_medium=pwa",`
-- upd:   "start_url"       : "/",
+- was: `"start_url" : "/?utm_source=baraban16.ru&utm_medium=pwa",`
+- upd: `"start_url" : "/",`
 
 ## [3.5.0] 2019-06-25 15:53 - 17:02
 
