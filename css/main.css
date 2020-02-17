@@ -14,11 +14,11 @@ Author        : Vladimir Pavlychev ;
 E-mail        : www@osarts.ru ;                 
 Create        : 2017.03.01 ;                  
 Time          : 11:50 ;                         
-Modified      : 2019.11.01                  
-Modified Time : 15:29 ;                         
+Modified      : 2020.02.17                  
+Modified Time : 18:30 ;                         
 
 ======================================
-Version       : 4.0.2                        
+Version       : 4.0.4                        
 ======================================
 *
 *
@@ -79,6 +79,9 @@ Version       : 4.0.2
 
 @import url("../blocks/b-pwa/b.pwa.css");
 /* 23:56 2019.06.26*/
+
+@import url("../blocks/b-sk9-econom/b-sk9-econom.css");
+/* 20:33 2020.02.17*/
 
 body {
   background-color: #fff;
